@@ -198,6 +198,12 @@ function mdLink(file) {
     .replace(/\)/g, '%29');
 }
 
+// 首页正文里手写的 <a href> 不经过 VitePress 的 withBase，
+// 用相对路径才能在 /yuque-kb/ 这类带 base 的站点正确跳转。
+function relLink(file) {
+  return mdLink(file).replace(/^\//, '');
+}
+
 function shortDate(s) {
   const m = String(s || '').match(/^(\d{4}-\d{2}-\d{2})/);
   return m ? m[1] : '';
@@ -256,14 +262,14 @@ function writeHome(report) {
 
   const recentList = recent.map((r, i) => {
     const date = shortDate(r.updated);
-    return `<li><a href="${mdLink(r.file)}">${mdText(r.title)}</a>${date ? `<time>${date}</time>` : ''}</li>`;
+    return `<li><a href="${relLink(r.file)}">${mdText(r.title)}</a>${date ? `<time>${date}</time>` : ''}</li>`;
   }).join('\n') || '<li>暂无日期信息</li>';
 
   const popularList = popular.map(r => {
     const parts = [r.book, `${Math.round(r.chars / 1000 * 10) / 10}k 字`];
     if (r.codeBlocks) parts.push(`${r.codeBlocks} 段代码`);
     if (r.images) parts.push(`${r.images} 张图`);
-    return `<li><a href="${mdLink(r.file)}">${mdText(r.title)}</a><span>${mdText(parts.join(' · '))}</span></li>`;
+    return `<li><a href="${relLink(r.file)}">${mdText(r.title)}</a><span>${mdText(parts.join(' · '))}</span></li>`;
   }).join('\n') || '<li>暂无数据</li>';
 
   const home = [
