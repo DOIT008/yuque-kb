@@ -105,7 +105,6 @@ html[data-font='serif'] {
   display: flex;
   align-items: center;
   height: 100%;
-  margin-left: 8px;
 }
 .font-picker-btn {
   display: inline-flex;
