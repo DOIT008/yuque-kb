@@ -19,24 +19,6 @@
   },
   {
     "book": "工作",
-    "title": "deepseek-vue",
-    "file": "24013644-nmkii5/deepseek-vue.md",
-    "updated": "2025-03-03T06:57:28.000Z",
-    "chars": 1276,
-    "codeBlocks": 0,
-    "images": 6,
-    "headings": [
-      "也就是说现在我最重要的是优先把Vue深入挖掘？",
-      "再详细点，给出优先级的行动步骤？",
-      "你对技术护城河的理解，并给我一个忠告",
-      "左耳朵耗子（P9）——忠告"
-    ],
-    "flags": [
-      "image_heavy"
-    ]
-  },
-  {
-    "book": "工作",
     "title": "项目常见功能开发总结",
     "file": "24013644-nmkii5/项目常见功能开发总结.md",
     "updated": "2024-11-18T07:19:27.000Z",
@@ -102,24 +84,6 @@
       "qoder 配置",
       "配置 SKILL",
       "参考"
-    ],
-    "flags": []
-  },
-  {
-    "book": "工作",
-    "title": "最浪漫的事",
-    "file": "24013644-nmkii5/最浪漫的事.md",
-    "updated": "2025-03-24T12:46:52.000Z",
-    "chars": 2667,
-    "codeBlocks": 0,
-    "images": 2,
-    "headings": [
-      "生长",
-      "根系",
-      "光年",
-      "星辰",
-      "做很酷的事",
-      "Kill【清醒着颓废】"
     ],
     "flags": []
   },
@@ -199,27 +163,6 @@
   },
   {
     "book": "工作",
-    "title": "关于 Yak Shaving",
-    "file": "24013644-nmkii5/关于 Yak Shaving.md",
-    "updated": "2025-10-11T09:49:35.000Z",
-    "chars": 5139,
-    "codeBlocks": 0,
-    "images": 0,
-    "headings": [
-      "Yak Shaving",
-      "我开始做开源的故事",
-      "Shave the Good Yak",
-      "发现问题",
-      "解决问题",
-      "点到为止",
-      "完善项目",
-      "发现更多问题",
-      "Wrapping Up"
-    ],
-    "flags": []
-  },
-  {
-    "book": "工作",
     "title": "flex：1 什么意思 - 盘思动 - 博客园",
     "file": "24013644-nmkii5/flex：1 什么意思 - 盘思动 - 博客园.md",
     "updated": "2026-02-05T03:10:33.000Z",
@@ -234,31 +177,6 @@
       "效果：",
       "其他用法：",
       "总结："
-    ],
-    "flags": []
-  },
-  {
-    "book": "工作",
-    "title": "聚焦",
-    "file": "24013644-nmkii5/聚焦.md",
-    "updated": "2025-07-29T03:50:45.000Z",
-    "chars": 3249,
-    "codeBlocks": 0,
-    "images": 0,
-    "headings": [
-      "豆包",
-      "通义千问",
-      "1\\. **专注深耕是35岁+工程师的明智选择**",
-      "2\\. **Vue 的生态足够大，值得深入**",
-      "3\\. **成为 Contributor 是可行且有价值的目标**",
-      "4\\. **React 19 不是“必须追赶”的潮流**",
-      "why",
-      "✅ 1. **边际成本最低：你已经在路上了**",
-      "✅ 2. **复利效应最强：经验可以持续积累**",
-      "✅ 3. **市场需求依然旺盛**",
-      "✅ 4. **成为 contributor 不是梦，而是可实现的目标**",
-      "✅ 5. **35岁不是终点，而是“技术价值释放”的起点**",
-      "所以，别怀疑自己"
     ],
     "flags": []
   },
@@ -360,42 +278,6 @@
   },
   {
     "book": "工作",
-    "title": "Nginx部署",
-    "file": "24013644-nmkii5/Nginx部署.md",
-    "updated": "2025-11-17T02:01:04.000Z",
-    "chars": 6055,
-    "codeBlocks": 7,
-    "images": 5,
-    "headings": [
-      "一、上传代码到服务器",
-      "二、安装并配置Nginx",
-      "2.1、安装Nginx",
-      "2.2、修改配置文件",
-      "2.3、命令",
-      "三、在同一个域名（同一个端口）下映射不同的项目",
-      "一 、 重启",
-      "参考"
-    ],
-    "flags": [
-      "code_heavy",
-      "image_heavy"
-    ]
-  },
-  {
-    "book": "工作",
-    "title": "先开始，再完美",
-    "file": "24013644-nmkii5/先开始，再完美.md",
-    "updated": "2025-05-13T12:57:55.000Z",
-    "chars": 355,
-    "codeBlocks": 0,
-    "images": 2,
-    "headings": [
-      "背景与思路"
-    ],
-    "flags": []
-  },
-  {
-    "book": "工作",
     "title": "破解GitLens的方案",
     "file": "24013644-nmkii5/破解GitLens的方案.md",
     "updated": "2026-10-09T08:04:16.000Z",
@@ -420,57 +302,6 @@
     "images": 0,
     "headings": [
       "背景与思路"
-    ],
-    "flags": []
-  },
-  {
-    "book": "工作",
-    "title": "2026周报",
-    "file": "24013644-nmkii5/2026周报.md",
-    "updated": "2026-11-19T01:15:12.000Z",
-    "chars": 12702,
-    "codeBlocks": 0,
-    "images": 0,
-    "headings": [
-      "1.12~1.16",
-      "1.21~1.23",
-      "1.26~1.30",
-      "2.2~2.6",
-      "2.9~2.14",
-      "2.24~2.28",
-      "3.2~3.6",
-      "3.9~3.13",
-      "3.16~3.20",
-      "3.23~3.27",
-      "3.30~4.3",
-      "4.7~4.10",
-      "4.13~4.17",
-      "4.20~4.24",
-      "4.27~4.30",
-      "5.6~5.9",
-      "5.11~5.18",
-      "5.25~5.29",
-      "6.1~6.5",
-      "6.8~6.26",
-      "6.29~7.3",
-      "7.6~7.10",
-      "7.13~7.17",
-      "7.20~7.24",
-      "7.27~7.31",
-      "8.3~8.7",
-      "8.10~8.14",
-      "8.17~8.21",
-      "8.24~8.28",
-      "8.31~9.4",
-      "9.7~9.11",
-      "9.14~9.18",
-      "9.21~9.24",
-      "9.28~9.30",
-      "10.8~10.10",
-      "10.19~10.23",
-      "11.2~11.6",
-      "11.9~11.13",
-      "11.16~11.23"
     ],
     "flags": []
   },
@@ -573,61 +404,6 @@
   },
   {
     "book": "生活",
-    "title": "霍春阳",
-    "file": "44851824-qmvy1p/霍春阳.md",
-    "updated": "2024-01-18T14:24:19.000Z",
-    "chars": 1152,
-    "codeBlocks": 0,
-    "images": 0,
-    "headings": [
-      "背景与思路"
-    ],
-    "flags": []
-  },
-  {
-    "book": "生活",
-    "title": "他走了，但精神永存",
-    "file": "44851824-qmvy1p/他走了，但精神永存.md",
-    "updated": "2024-01-01T09:08:16.000Z",
-    "chars": 1484,
-    "codeBlocks": 0,
-    "images": 3,
-    "headings": [
-      "参考"
-    ],
-    "flags": []
-  },
-  {
-    "book": "生活",
-    "title": "程序员如何把控自己的职业",
-    "file": "44851824-qmvy1p/程序员如何把控自己的职业.md",
-    "updated": "2024-01-18T14:23:38.000Z",
-    "chars": 5596,
-    "codeBlocks": 1,
-    "images": 1,
-    "headings": [
-      "代码示例",
-      "认识自己",
-      "打好基础",
-      "学习效率"
-    ],
-    "flags": []
-  },
-  {
-    "book": "生活",
-    "title": "尤雨溪",
-    "file": "44851824-qmvy1p/尤雨溪.md",
-    "updated": "2024-10-13T11:50:12.000Z",
-    "chars": 520,
-    "codeBlocks": 0,
-    "images": 0,
-    "headings": [
-      "背景与思路"
-    ],
-    "flags": []
-  },
-  {
-    "book": "生活",
     "title": "孩子",
     "file": "44851824-qmvy1p/孩子.md",
     "updated": "2026-03-12T10:32:54.000Z",
@@ -640,51 +416,6 @@
       "他们-学霸",
       "名字",
       "纪录片"
-    ],
-    "flags": []
-  },
-  {
-    "book": "生活",
-    "title": "成长之路",
-    "file": "44851824-qmvy1p/成长之路.md",
-    "updated": "2025-02-27T06:11:40.000Z",
-    "chars": 719,
-    "codeBlocks": 0,
-    "images": 0,
-    "headings": [
-      "背景与思路"
-    ],
-    "flags": []
-  },
-  {
-    "book": "生活",
-    "title": "如何超过大多数人",
-    "file": "44851824-qmvy1p/如何超过大多数人.md",
-    "updated": "2024-01-18T14:22:22.000Z",
-    "chars": 3615,
-    "codeBlocks": 0,
-    "images": 0,
-    "headings": [
-      "认知",
-      "知识",
-      "技能",
-      "领导力",
-      "参考"
-    ],
-    "flags": []
-  },
-  {
-    "book": "生活",
-    "title": "“努力就会成功”",
-    "file": "44851824-qmvy1p/“努力就会成功”.md",
-    "updated": "2024-01-18T14:24:52.000Z",
-    "chars": 4180,
-    "codeBlocks": 0,
-    "images": 2,
-    "headings": [
-      "你喜欢这句话吗？",
-      "我成长的过程",
-      "Work Smart"
     ],
     "flags": []
   },
@@ -752,47 +483,6 @@
     "file": "44851824-qmvy1p/情商.md",
     "updated": "2024-01-18T14:25:09.000Z",
     "chars": 441,
-    "codeBlocks": 0,
-    "images": 0,
-    "headings": [
-      "背景与思路"
-    ],
-    "flags": []
-  },
-  {
-    "book": "生活",
-    "title": "不积跬步，无以至千里",
-    "file": "44851824-qmvy1p/不积跬步，无以至千里.md",
-    "updated": "2024-02-24T14:15:36.000Z",
-    "chars": 572,
-    "codeBlocks": 0,
-    "images": 0,
-    "headings": [
-      "背景与思路"
-    ],
-    "flags": []
-  },
-  {
-    "book": "生活",
-    "title": "万事无他，唯手熟尔",
-    "file": "44851824-qmvy1p/万事无他，唯手熟尔.md",
-    "updated": "2024-02-22T09:49:55.000Z",
-    "chars": 7999,
-    "codeBlocks": 0,
-    "images": 0,
-    "headings": [
-      "尤雨溪",
-      "总结",
-      "高山仰止"
-    ],
-    "flags": []
-  },
-  {
-    "book": "生活",
-    "title": "我的偶像们",
-    "file": "44851824-qmvy1p/我的偶像们.md",
-    "updated": "2024-01-18T14:24:31.000Z",
-    "chars": 341,
     "codeBlocks": 0,
     "images": 0,
     "headings": [
@@ -1273,57 +963,6 @@
   },
   {
     "book": "前端",
-    "title": "Vue项目中如何做按需加载",
-    "file": "44851988-rs8s8g/Vue项目中如何做按需加载.md",
-    "updated": "2021-03-05T14:02:31.000Z",
-    "chars": 511,
-    "codeBlocks": 0,
-    "images": 0,
-    "headings": [
-      "第三方UI",
-      "自己的代码"
-    ],
-    "flags": []
-  },
-  {
-    "book": "前端",
-    "title": "v-If和v-for的优先级问题",
-    "file": "44851988-rs8s8g/v-If和v-for的优先级问题.md",
-    "updated": "2021-01-27T14:49:50.000Z",
-    "chars": 2826,
-    "codeBlocks": 5,
-    "images": 0,
-    "headings": [
-      "代码示例",
-      "综上所述"
-    ],
-    "flags": [
-      "needs_structure",
-      "code_heavy",
-      "structure_optimized"
-    ]
-  },
-  {
-    "book": "前端",
-    "title": "重排和重绘",
-    "file": "44851988-rs8s8g/重排和重绘.md",
-    "updated": "2024-11-28T12:22:33.000Z",
-    "chars": 1128,
-    "codeBlocks": 2,
-    "images": 0,
-    "headings": [
-      "重排",
-      "如何触发重排",
-      "代码示例",
-      "优化方案",
-      "提升为合成层",
-      "重绘",
-      "总结"
-    ],
-    "flags": []
-  },
-  {
-    "book": "前端",
     "title": "JS深入之函数防抖和节流",
     "file": "44851988-rs8s8g/JS深入之函数防抖和节流.md",
     "updated": "2023-08-07T14:53:57.000Z",
@@ -1341,25 +980,6 @@
       "背景",
       "原理",
       "实现"
-    ],
-    "flags": []
-  },
-  {
-    "book": "前端",
-    "title": "其他面试题",
-    "file": "44851988-rs8s8g/其他面试题.md",
-    "updated": "2022-05-11T13:00:16.000Z",
-    "chars": 2857,
-    "codeBlocks": 3,
-    "images": 0,
-    "headings": [
-      "vm.$set()实现原理是什么?",
-      "代码示例",
-      "Vue路由",
-      "History模式和hash（默认）模式的区别",
-      "query参数和param参数",
-      "keep-alive",
-      "自定义指令"
     ],
     "flags": []
   },
@@ -1413,20 +1033,6 @@
       "代码示例",
       "集中暴露",
       "使用export default"
-    ],
-    "flags": []
-  },
-  {
-    "book": "前端",
-    "title": "Prettier",
-    "file": "44851988-rs8s8g/Prettier.md",
-    "updated": "2024-03-07T03:05:53.000Z",
-    "chars": 1235,
-    "codeBlocks": 2,
-    "images": 0,
-    "headings": [
-      "代码示例",
-      "参考"
     ],
     "flags": []
   },
@@ -1511,26 +1117,6 @@
     "flags": [
       "short"
     ]
-  },
-  {
-    "book": "前端",
-    "title": "编译原理杂谈🪢",
-    "file": "44851988-rs8s8g/编译原理杂谈🪢.md",
-    "updated": "2023-01-31T12:35:50.000Z",
-    "chars": 4266,
-    "codeBlocks": 3,
-    "images": 2,
-    "headings": [
-      "一、什么是编译",
-      "二、如何转换",
-      "2.1、共有的“各种分析”",
-      "代码示例",
-      "2.2、转译器、解释器、编译器",
-      "2.3、编译器如何处理ast？",
-      "2.4、解释器如何处理ast？",
-      "三、参考文章"
-    ],
-    "flags": []
   },
   {
     "book": "前端",
@@ -1685,36 +1271,6 @@
   },
   {
     "book": "前端",
-    "title": "Webpack之moudule，chunk，bundle",
-    "file": "44851988-rs8s8g/Webpack之moudule，chunk，bundle.md",
-    "updated": "2021-02-04T14:02:11.000Z",
-    "chars": 789,
-    "codeBlocks": 0,
-    "images": 1,
-    "headings": [
-      "一、核心概念",
-      "module",
-      "chunk",
-      "bundle",
-      "参考文章："
-    ],
-    "flags": []
-  },
-  {
-    "book": "前端",
-    "title": "垃圾回收机制",
-    "file": "44851988-rs8s8g/垃圾回收机制.md",
-    "updated": "2023-03-06T09:53:21.000Z",
-    "chars": 529,
-    "codeBlocks": 0,
-    "images": 0,
-    "headings": [
-      "背景与思路"
-    ],
-    "flags": []
-  },
-  {
-    "book": "前端",
     "title": "为什么0.1+0.2≠0.3?",
     "file": "44851988-rs8s8g/为什么0.1+0.2≠0.3-.md",
     "updated": "2024-06-28T12:37:34.000Z",
@@ -1744,44 +1300,6 @@
       "引用",
       "配置",
       "参考文章"
-    ],
-    "flags": []
-  },
-  {
-    "book": "前端",
-    "title": "计算机网络基础",
-    "file": "44851988-rs8s8g/计算机网络基础.md",
-    "updated": "2024-07-29T07:58:07.000Z",
-    "chars": 7076,
-    "codeBlocks": 1,
-    "images": 4,
-    "headings": [
-      "一、网络分层",
-      "二、http发展史",
-      "1\\. Http0.9:",
-      "2、Http 1.0",
-      "3、Http1.1",
-      "4、Http2​",
-      "三、三次握手",
-      "四、四次挥手",
-      "五、报文",
-      "1、请求报文",
-      "2、响应报文",
-      "3、请求方法",
-      "4、状态码",
-      "六、跨域（CORS）",
-      "1、为什么会跨域",
-      "2、解决跨域",
-      "代码示例",
-      "七、缓存",
-      "1、强缓存",
-      "2、协商缓存",
-      "八、Cookie",
-      "1、使用方法：",
-      "2、属性",
-      "九、数据协商",
-      "十、HTTPS",
-      "十一、TCP/UDP"
     ],
     "flags": []
   },
@@ -1822,42 +1340,6 @@
     "flags": [
       "code_heavy"
     ]
-  },
-  {
-    "book": "前端",
-    "title": "计算机基础",
-    "file": "44851988-rs8s8g/计算机基础.md",
-    "updated": "2023-03-03T23:07:39.000Z",
-    "chars": 2388,
-    "codeBlocks": 0,
-    "images": 4,
-    "headings": [
-      "一、CPU",
-      "二、内存",
-      "三、二进制",
-      "四、磁盘",
-      "4.1、磁盘和程序",
-      "4.2 磁盘缓存",
-      "4.3 、虚拟内存",
-      "五、参考文章"
-    ],
-    "flags": []
-  },
-  {
-    "book": "前端",
-    "title": "线程和进程",
-    "file": "44851988-rs8s8g/线程和进程.md",
-    "updated": "2021-02-21T12:58:46.000Z",
-    "chars": 691,
-    "codeBlocks": 0,
-    "images": 0,
-    "headings": [
-      "浏览器的进程和线程",
-      "进程",
-      "线程",
-      "参考文章"
-    ],
-    "flags": []
   },
   {
     "book": "前端",
@@ -1960,22 +1442,6 @@
       "验证一下",
       "代码示例",
       "总结"
-    ],
-    "flags": []
-  },
-  {
-    "book": "前端",
-    "title": "谈谈你对Vue设计理念的理解",
-    "file": "44851988-rs8s8g/谈谈你对Vue设计理念的理解.md",
-    "updated": "2021-01-30T06:01:37.000Z",
-    "chars": 669,
-    "codeBlocks": 0,
-    "images": 0,
-    "headings": [
-      "渐进式 JavaScript 框架",
-      "易用性",
-      "灵活性",
-      "高效性"
     ],
     "flags": []
   },
@@ -2129,19 +1595,6 @@
   },
   {
     "book": "前端",
-    "title": "如何提⾼webpack的构建速度",
-    "file": "44851988-rs8s8g/如何提⾼webpack的构建速度.md",
-    "updated": "2021-03-19T12:13:19.000Z",
-    "chars": 803,
-    "codeBlocks": 0,
-    "images": 1,
-    "headings": [
-      "如果打包体积比较大，怎么优化"
-    ],
-    "flags": []
-  },
-  {
-    "book": "前端",
     "title": "接口",
     "file": "44851988-rs8s8g/接口.md",
     "updated": "2025-09-02T07:49:27.000Z",
@@ -2213,20 +1666,6 @@
       "特点",
       "实现",
       "数组"
-    ],
-    "flags": []
-  },
-  {
-    "book": "前端",
-    "title": "响应式的理解",
-    "file": "44851988-rs8s8g/响应式的理解.md",
-    "updated": "2021-02-24T12:06:53.000Z",
-    "chars": 788,
-    "codeBlocks": 0,
-    "images": 0,
-    "headings": [
-      "pull",
-      "push"
     ],
     "flags": []
   },
@@ -2332,19 +1771,6 @@
   },
   {
     "book": "前端",
-    "title": "Vite为啥比webpack快",
-    "file": "44851988-rs8s8g/Vite为啥比webpack快.md",
-    "updated": "2024-07-24T13:29:52.000Z",
-    "chars": 353,
-    "codeBlocks": 0,
-    "images": 0,
-    "headings": [
-      "背景与思路"
-    ],
-    "flags": []
-  },
-  {
-    "book": "前端",
     "title": "数据获取",
     "file": "44851988-rs8s8g/数据获取.md",
     "updated": "2022-04-16T14:34:17.000Z",
@@ -2357,33 +1783,6 @@
       "二、useLazyAsyncData",
       "三、useFetch（推荐）",
       "四、useLazyFetch"
-    ],
-    "flags": []
-  },
-  {
-    "book": "前端",
-    "title": "vue2 中EventBus的原理",
-    "file": "44851988-rs8s8g/vue2 中EventBus的原理.md",
-    "updated": "2024-07-24T13:38:20.000Z",
-    "chars": 1034,
-    "codeBlocks": 1,
-    "images": 0,
-    "headings": [
-      "背景与思路",
-      "代码示例"
-    ],
-    "flags": []
-  },
-  {
-    "book": "前端",
-    "title": "翻墙",
-    "file": "44851988-rs8s8g/翻墙.md",
-    "updated": "2024-02-24T14:58:31.000Z",
-    "chars": 464,
-    "codeBlocks": 0,
-    "images": 0,
-    "headings": [
-      "背景与思路"
     ],
     "flags": []
   },
@@ -2617,35 +2016,6 @@
   },
   {
     "book": "前端",
-    "title": "常见的loader和plugin",
-    "file": "44851988-rs8s8g/常见的loader和plugin.md",
-    "updated": "2021-03-06T12:02:14.000Z",
-    "chars": 339,
-    "codeBlocks": 0,
-    "images": 0,
-    "headings": [
-      "Loader",
-      "Plugin"
-    ],
-    "flags": []
-  },
-  {
-    "book": "前端",
-    "title": "前端安全与防护",
-    "file": "44851988-rs8s8g/前端安全与防护.md",
-    "updated": "2021-02-24T14:02:26.000Z",
-    "chars": 135,
-    "codeBlocks": 0,
-    "images": 0,
-    "headings": [
-      "背景与思路"
-    ],
-    "flags": [
-      "short"
-    ]
-  },
-  {
-    "book": "前端",
     "title": "布局系统",
     "file": "44851988-rs8s8g/布局系统.md",
     "updated": "2022-04-16T02:54:53.000Z",
@@ -2707,21 +2077,6 @@
   },
   {
     "book": "前端",
-    "title": "谈谈你对MVC，MVP，MVVM的理解",
-    "file": "44851988-rs8s8g/谈谈你对MVC，MVP，MVVM的理解.md",
-    "updated": "2024-07-10T13:35:56.000Z",
-    "chars": 1522,
-    "codeBlocks": 0,
-    "images": 4,
-    "headings": [
-      "MVC",
-      "MVP",
-      "MVVM"
-    ],
-    "flags": []
-  },
-  {
-    "book": "前端",
     "title": "JS深入系列之作用域和作用域链",
     "file": "44851988-rs8s8g/JS深入系列之作用域和作用域链.md",
     "updated": "2024-07-31T14:26:53.000Z",
@@ -2776,19 +2131,6 @@
   },
   {
     "book": "前端",
-    "title": "babel的原理是什么",
-    "file": "44851988-rs8s8g/babel的原理是什么.md",
-    "updated": "2021-03-06T13:00:36.000Z",
-    "chars": 437,
-    "codeBlocks": 0,
-    "images": 1,
-    "headings": [
-      "简而言之"
-    ],
-    "flags": []
-  },
-  {
-    "book": "前端",
     "title": "Suspense",
     "file": "44851988-rs8s8g/Suspense.md",
     "updated": "2021-06-17T13:56:35.000Z",
@@ -2829,20 +2171,6 @@
     "headings": [
       "一、前端开发的三个阶段",
       "二、实战"
-    ],
-    "flags": []
-  },
-  {
-    "book": "前端",
-    "title": "编写loader或plugin的思路",
-    "file": "44851988-rs8s8g/编写loader或plugin的思路.md",
-    "updated": "2021-02-23T23:35:16.000Z",
-    "chars": 502,
-    "codeBlocks": 0,
-    "images": 0,
-    "headings": [
-      "编写Loader",
-      "编写Plugin"
     ],
     "flags": []
   },
@@ -2907,44 +2235,6 @@
       "needs_structure",
       "structure_optimized"
     ]
-  },
-  {
-    "book": "前端",
-    "title": "ESLint",
-    "file": "44851988-rs8s8g/ESLint.md",
-    "updated": "2024-12-24T02:12:10.000Z",
-    "chars": 16541,
-    "codeBlocks": 8,
-    "images": 2,
-    "headings": [
-      "一、使用f2elint",
-      "代码示例",
-      "错误处理",
-      "路径别名和ESlint",
-      "和Prettier擦出的火花",
-      "二、自己配"
-    ],
-    "flags": [
-      "code_heavy"
-    ]
-  },
-  {
-    "book": "前端",
-    "title": "Vue性能优化的方法",
-    "file": "44851988-rs8s8g/Vue性能优化的方法.md",
-    "updated": "2021-01-30T10:34:26.000Z",
-    "chars": 954,
-    "codeBlocks": 4,
-    "images": 0,
-    "headings": [
-      "1\\. 路由懒加载",
-      "代码示例",
-      "2\\. keep-alive缓存页面",
-      "3\\. v-for 遍历避免同时使用 v-if",
-      "4\\. 长列表性能优化",
-      "5\\. 第三方插件按需引入"
-    ],
-    "flags": []
   },
   {
     "book": "前端",
@@ -3089,33 +2379,6 @@
   },
   {
     "book": "前端",
-    "title": "使用verdaccio搭建npm私有仓库",
-    "file": "44851988-rs8s8g/使用verdaccio搭建npm私有仓库.md",
-    "updated": "2022-12-18T07:33:19.000Z",
-    "chars": 5674,
-    "codeBlocks": 7,
-    "images": 7,
-    "headings": [
-      "各种搭建方法对比",
-      "一、安装verdaccio",
-      "代码示例",
-      "二、修改verdaccio配置",
-      "三、用pm2部署",
-      "四、使用nrm管理仓源",
-      "五、注册和登录",
-      "5.1、注册",
-      "5.2、登录",
-      "5.3、删除用户",
-      "六、发布包",
-      "参考文章："
-    ],
-    "flags": [
-      "code_heavy",
-      "image_heavy"
-    ]
-  },
-  {
-    "book": "前端",
     "title": "组件相关",
     "file": "44851988-rs8s8g/组件相关.md",
     "updated": "2023-04-28T09:03:58.000Z",
@@ -3162,20 +2425,6 @@
     "flags": [
       "code_heavy"
     ]
-  },
-  {
-    "book": "前端",
-    "title": "DOM树是如何构建的",
-    "file": "44851988-rs8s8g/DOM树是如何构建的.md",
-    "updated": "2023-04-11T01:06:47.000Z",
-    "chars": 340,
-    "codeBlocks": 0,
-    "images": 1,
-    "headings": [
-      "简单流程",
-      "示意图"
-    ],
-    "flags": []
   },
   {
     "book": "前端",
@@ -3420,92 +2669,6 @@
   },
   {
     "book": "前端",
-    "title": "前端编码规范",
-    "file": "44851988-rs8s8g/前端编码规范.md",
-    "updated": "2024-10-15T00:18:50.000Z",
-    "chars": 13641,
-    "codeBlocks": 32,
-    "images": 13,
-    "headings": [
-      "一、项目相关",
-      "1.1、项目名",
-      "1.2、文件夹名",
-      "1.3、 JS、CSS、SCSS、HTML、PNG 文件命名",
-      "1.4、命名严谨性",
-      "二、HTML（Vue Template也适用）",
-      "2.1、HTML类型",
-      "2.2、缩进",
-      "2.3、语义化标签",
-      "2.4、引号",
-      "三、CSS规范",
-      "3.1、命名",
-      "3.2、选择器",
-      "代码示例",
-      "3.3、尽量使用缩写属性",
-      "3.4、每个选择器及属性独占一行",
-      "3.5、省略 0 后面的单位",
-      "四、less/scss规范",
-      "五、JS规范",
-      "5.1、命名",
-      "5.2、字符串",
-      "5.3、对象声明",
-      "5.3.1、使用字面值创建对象",
-      "5.3.2、使用字面量来代替对象构造器",
-      "5.4、使用 ES6+",
-      "5.5、括号",
-      "5.6、undefined判断",
-      "5.7、条件判断和循环最多三层",
-      "5.8、this 的转换命名",
-      "5.9、解构赋值",
-      "六、Vue",
-      "6.1、Vue编码基础",
-      "6.2、组件规范",
-      "6.2.6、组件的 data 必须是一个函数",
-      "6.2.7、props",
-      "6.2.8、为组件样式设置作用域",
-      "6.2.9、指令都使用缩写形式",
-      "6.2.10、v-for",
-      "6.2.11、计算属性",
-      "6.2.12、 script 标签内部结构顺序",
-      "6.2.13、v-show 与 v-if 选择",
-      "6.3、路由",
-      "6.3.1、使用路由懒加载（延迟加载）机制",
-      "6.3.2、router命名规范",
-      "6.4、Vue项目目录规范",
-      "6.4.1、目录说明",
-      "6.4.2、api 目录",
-      "6.4.3、assets目录",
-      "6.4.4、components目录",
-      "6.4.5、constants 目录",
-      "6.4.6、router 与 store 目录",
-      "6.5、注释（重要！）"
-    ],
-    "flags": [
-      "code_heavy",
-      "image_heavy"
-    ]
-  },
-  {
-    "book": "前端",
-    "title": "如果要扩展一个组件，那你会怎么做？",
-    "file": "44851988-rs8s8g/如果要扩展一个组件，那你会怎么做？.md",
-    "updated": "2022-05-04T04:41:07.000Z",
-    "chars": 1275,
-    "codeBlocks": 4,
-    "images": 0,
-    "headings": [
-      "mixins（混入）",
-      "代码示例",
-      "特点",
-      "extends （扩展）",
-      "特点",
-      "slot（内容分发）",
-      "Vue.extend"
-    ],
-    "flags": []
-  },
-  {
-    "book": "前端",
     "title": "TS环境搭建",
     "file": "44851988-rs8s8g/TS环境搭建.md",
     "updated": "2024-03-10T13:26:59.000Z",
@@ -3546,19 +2709,6 @@
     "flags": [
       "code_heavy"
     ]
-  },
-  {
-    "book": "前端",
-    "title": "webpack的构建流程",
-    "file": "44851988-rs8s8g/webpack的构建流程.md",
-    "updated": "2021-02-23T23:30:47.000Z",
-    "chars": 704,
-    "codeBlocks": 0,
-    "images": 0,
-    "headings": [
-      "背景与思路"
-    ],
-    "flags": []
   },
   {
     "book": "前端",
@@ -3697,19 +2847,6 @@
   },
   {
     "book": "前端",
-    "title": "nextTick的用法、理解和原理",
-    "file": "44851988-rs8s8g/nextTick的用法、理解和原理.md",
-    "updated": "2022-05-08T10:19:27.000Z",
-    "chars": 300,
-    "codeBlocks": 0,
-    "images": 0,
-    "headings": [
-      "总结"
-    ],
-    "flags": []
-  },
-  {
-    "book": "前端",
     "title": "JS专题之——模拟实现自定义事件",
     "file": "44851988-rs8s8g/JS专题之——模拟实现自定义事件.md",
     "updated": "2021-04-07T13:44:34.000Z",
@@ -3744,22 +2881,6 @@
   },
   {
     "book": "前端",
-    "title": "JS深入系列之事件循环机制",
-    "file": "44851988-rs8s8g/JS深入系列之事件循环机制.md",
-    "updated": "2024-07-31T14:18:27.000Z",
-    "chars": 1796,
-    "codeBlocks": 1,
-    "images": 1,
-    "headings": [
-      "一、两个概念",
-      "二、EventLoop",
-      "三、一个例子",
-      "代码示例"
-    ],
-    "flags": []
-  },
-  {
-    "book": "前端",
     "title": "JS深入之类数组和数组",
     "file": "44851988-rs8s8g/JS深入之类数组和数组.md",
     "updated": "2020-08-07T00:10:02.000Z",
@@ -3772,24 +2893,6 @@
       "转为真正的数组"
     ],
     "flags": []
-  },
-  {
-    "book": "前端",
-    "title": "Vuex的理解",
-    "file": "44851988-rs8s8g/Vuex的理解.md",
-    "updated": "2021-02-01T13:13:07.000Z",
-    "chars": 216,
-    "codeBlocks": 0,
-    "images": 0,
-    "headings": [
-      "what",
-      "When",
-      "how",
-      "原理"
-    ],
-    "flags": [
-      "short"
-    ]
   },
   {
     "book": "前端",
@@ -3842,39 +2945,6 @@
   },
   {
     "book": "前端",
-    "title": "前端安全",
-    "file": "44851988-rs8s8g/前端安全.md",
-    "updated": "2022-01-05T09:10:51.000Z",
-    "chars": 1614,
-    "codeBlocks": 0,
-    "images": 0,
-    "headings": [
-      "分类",
-      "XSS攻击（跨站脚本攻击）",
-      "CSRF攻击（跨站请求伪造）",
-      "点击劫持",
-      "如何检测网站是否安全",
-      "性能优化"
-    ],
-    "flags": []
-  },
-  {
-    "book": "前端",
-    "title": "key的作用和原理",
-    "file": "44851988-rs8s8g/key的作用和原理.md",
-    "updated": "2024-07-10T13:39:10.000Z",
-    "chars": 907,
-    "codeBlocks": 1,
-    "images": 2,
-    "headings": [
-      "源码",
-      "结论",
-      "代码示例"
-    ],
-    "flags": []
-  },
-  {
-    "book": "前端",
     "title": "Vue中常用的TS工具类型",
     "file": "44851988-rs8s8g/Vue中常用的TS工具类型.md",
     "updated": "2025-09-29T09:40:32.000Z",
@@ -3890,52 +2960,6 @@
       ""
     ],
     "flags": []
-  },
-  {
-    "book": "前端",
-    "title": "Webpack之-hash chunkhash contenthash",
-    "file": "44851988-rs8s8g/Webpack之-hash chunkhash contenthash.md",
-    "updated": "2021-02-06T13:56:31.000Z",
-    "chars": 806,
-    "codeBlocks": 0,
-    "images": 1,
-    "headings": [
-      "",
-      "Hash",
-      "特点",
-      "ChunkHash",
-      "特点",
-      "ContentHash",
-      "特点",
-      "参考文章"
-    ],
-    "flags": []
-  },
-  {
-    "book": "前端",
-    "title": "从输入URL到渲染页面中间发生了什么",
-    "file": "44851988-rs8s8g/从输入URL到渲染页面中间发生了什么.md",
-    "updated": "2022-12-28T08:07:50.000Z",
-    "chars": 4889,
-    "codeBlocks": 9,
-    "images": 1,
-    "headings": [
-      "前置知识",
-      "多进程的浏览器",
-      "多线程的浏览器内核",
-      "大致流程",
-      "代码示例",
-      "详细流程",
-      "1\\. 浏览器开启一个网络请求的线程",
-      "2\\. 开启网络线程到成功发送请求",
-      "3\\. 从服务器接收到请求到对应后台接收到请求",
-      "4\\. 后台和前台的http交互",
-      "5\\. 缓存问题，http的缓存",
-      "6\\. 浏览器接收到http数据包后的解析流程"
-    ],
-    "flags": [
-      "code_heavy"
-    ]
   },
   {
     "book": "前端",
@@ -3995,33 +3019,6 @@
   },
   {
     "book": "前端",
-    "title": "Git各种命令",
-    "file": "44851988-rs8s8g/Git各种命令.md",
-    "updated": "2024-08-05T02:45:42.000Z",
-    "chars": 5604,
-    "codeBlocks": 9,
-    "images": 2,
-    "headings": [
-      "Git",
-      "一、Git原理图（应用层）",
-      "二、Git常见术语以及他们之间的关系",
-      "三、Git常见操作",
-      "3.1 创建仓库",
-      "代码示例",
-      "3.2、推送",
-      "3.3、分支",
-      "3.4、标签tag",
-      "3.5、后悔药",
-      "3.6、文件信息",
-      "3.7、其他命令",
-      "3.8、其他技巧"
-    ],
-    "flags": [
-      "code_heavy"
-    ]
-  },
-  {
-    "book": "前端",
     "title": "递归",
     "file": "44851988-rs8s8g/递归.md",
     "updated": "2023-03-05T23:41:38.000Z",
@@ -4052,20 +3049,6 @@
     "flags": [
       "code_heavy"
     ]
-  },
-  {
-    "book": "前端",
-    "title": "NVM-node.js版本管理工具",
-    "file": "44851988-rs8s8g/NVM-node.js版本管理工具.md",
-    "updated": "2024-09-20T08:36:56.000Z",
-    "chars": 561,
-    "codeBlocks": 0,
-    "images": 1,
-    "headings": [
-      "安装",
-      "配置"
-    ],
-    "flags": []
   },
   {
     "book": "前端",
@@ -4170,21 +3153,6 @@
       "export，export default 和 module.export",
       "一、相同点",
       "二、不同点",
-      "代码示例"
-    ],
-    "flags": []
-  },
-  {
-    "book": "前端",
-    "title": "浏览器的事件触发机制",
-    "file": "44851988-rs8s8g/浏览器的事件触发机制.md",
-    "updated": "2021-03-13T13:20:02.000Z",
-    "chars": 1882,
-    "codeBlocks": 2,
-    "images": 0,
-    "headings": [
-      "三个阶段",
-      "举个栗子",
       "代码示例"
     ],
     "flags": []
@@ -4336,22 +3304,6 @@
   },
   {
     "book": "前端",
-    "title": "无限试用GitLens的方案 - 知乎",
-    "file": "44851988-rs8s8g/无限试用GitLens的方案 - 知乎.md",
-    "updated": "2024-05-02T12:25:53.000Z",
-    "chars": 879,
-    "codeBlocks": 7,
-    "images": 0,
-    "headings": [
-      "背景与思路",
-      "代码示例"
-    ],
-    "flags": [
-      "code_heavy"
-    ]
-  },
-  {
-    "book": "前端",
     "title": "单元测试vitest+vue3+ts🧪🧪",
     "file": "44851988-rs8s8g/单元测试vitest+vue3+ts🧪🧪.md",
     "updated": "2024-05-08T21:35:46.000Z",
@@ -4373,25 +3325,6 @@
       "1、测试js/ts文件",
       "2、测试vue文件",
       "六、参考"
-    ],
-    "flags": [
-      "code_heavy"
-    ]
-  },
-  {
-    "book": "前端",
-    "title": "mm",
-    "file": "44851988-rs8s8g/mm.md",
-    "updated": "2025-07-07T09:24:34.000Z",
-    "chars": 29356,
-    "codeBlocks": 29,
-    "images": 0,
-    "headings": [
-      "基础知识",
-      "代码示例",
-      "场景题",
-      "重点场景",
-      "软技能"
     ],
     "flags": [
       "code_heavy"
@@ -4442,19 +3375,6 @@
   },
   {
     "book": "前端",
-    "title": "webpack的热更新（HMR）的原理",
-    "file": "44851988-rs8s8g/webpack的热更新（HMR）的原理.md",
-    "updated": "2021-03-08T13:01:14.000Z",
-    "chars": 1586,
-    "codeBlocks": 0,
-    "images": 1,
-    "headings": [
-      "原理"
-    ],
-    "flags": []
-  },
-  {
-    "book": "前端",
     "title": "script setup（TS+组合式API）",
     "file": "44851988-rs8s8g/script setup（TS+组合式API）.md",
     "updated": "2024-02-23T07:23:37.000Z",
@@ -4491,36 +3411,6 @@
   },
   {
     "book": "前端",
-    "title": "webpack、rollup、parcel优劣",
-    "file": "44851988-rs8s8g/webpack、rollup、parcel优劣.md",
-    "updated": "2021-02-23T23:23:52.000Z",
-    "chars": 587,
-    "codeBlocks": 0,
-    "images": 1,
-    "headings": [
-      "背景与思路"
-    ],
-    "flags": []
-  },
-  {
-    "book": "前端",
-    "title": "V8引擎是如何执行JS代码的",
-    "file": "44851988-rs8s8g/V8引擎是如何执行JS代码的.md",
-    "updated": "2021-02-25T15:08:20.000Z",
-    "chars": 1251,
-    "codeBlocks": 0,
-    "images": 2,
-    "headings": [
-      "什么是V8？",
-      "V8的结构",
-      "V8的执行管道",
-      "V8引擎具体的执行过程",
-      "参考"
-    ],
-    "flags": []
-  },
-  {
-    "book": "前端",
     "title": "ES6深入之——async/await",
     "file": "44851988-rs8s8g/ES6深入之——async-await.md",
     "updated": "2020-09-26T02:20:46.000Z",
@@ -4538,53 +3428,6 @@
     "flags": [
       "code_heavy"
     ]
-  },
-  {
-    "book": "前端",
-    "title": "Webpack之loader和plugin",
-    "file": "44851988-rs8s8g/Webpack之loader和plugin.md",
-    "updated": "2021-02-09T12:14:06.000Z",
-    "chars": 246,
-    "codeBlocks": 0,
-    "images": 0,
-    "headings": [
-      "loader",
-      "插件"
-    ],
-    "flags": [
-      "short"
-    ]
-  },
-  {
-    "book": "前端",
-    "title": "webpack与grunt、gulp",
-    "file": "44851988-rs8s8g/webpack与grunt、gulp.md",
-    "updated": "2021-03-06T13:05:45.000Z",
-    "chars": 514,
-    "codeBlocks": 0,
-    "images": 0,
-    "headings": [
-      "简而言之"
-    ],
-    "flags": []
-  },
-  {
-    "book": "前端",
-    "title": "谈谈你对Vue路由安全的理解",
-    "file": "44851988-rs8s8g/谈谈你对Vue路由安全的理解.md",
-    "updated": "2021-02-01T13:23:42.000Z",
-    "chars": 577,
-    "codeBlocks": 1,
-    "images": 0,
-    "headings": [
-      "分类",
-      "三者区别",
-      "执行顺序",
-      "后台的路由？",
-      "代码示例",
-      "路由守卫的原理?"
-    ],
-    "flags": []
   },
   {
     "book": "前端",
@@ -4651,21 +3494,6 @@
   },
   {
     "book": "前端",
-    "title": "sessionStorage的存储问题",
-    "file": "44851988-rs8s8g/sessionStorage的存储问题.md",
-    "updated": "2021-03-13T13:20:31.000Z",
-    "chars": 256,
-    "codeBlocks": 0,
-    "images": 0,
-    "headings": [
-      "背景与思路"
-    ],
-    "flags": [
-      "short"
-    ]
-  },
-  {
-    "book": "前端",
     "title": "Export",
     "file": "44851988-rs8s8g/Export.md",
     "updated": "2020-06-14T01:56:39.000Z",
@@ -4696,36 +3524,6 @@
   },
   {
     "book": "前端",
-    "title": "为啥组件的data是函数，而根组件是对象？",
-    "file": "44851988-rs8s8g/为啥组件的data是函数，而根组件是对象？.md",
-    "updated": "2021-01-28T11:42:23.000Z",
-    "chars": 353,
-    "codeBlocks": 0,
-    "images": 0,
-    "headings": [
-      "背景与思路"
-    ],
-    "flags": []
-  },
-  {
-    "book": "前端",
-    "title": "Vue3的特性",
-    "file": "44851988-rs8s8g/Vue3的特性.md",
-    "updated": "2021-02-01T13:12:17.000Z",
-    "chars": 319,
-    "codeBlocks": 0,
-    "images": 0,
-    "headings": [
-      "更快",
-      "更小",
-      "更容易维护",
-      "更加友好",
-      "更容易使用"
-    ],
-    "flags": []
-  },
-  {
-    "book": "前端",
     "title": "ES6深入之——箭头函数",
     "file": "44851988-rs8s8g/ES6深入之——箭头函数.md",
     "updated": "2022-12-26T12:40:33.000Z",
@@ -4746,21 +3544,6 @@
     ],
     "flags": [
       "code_heavy"
-    ]
-  },
-  {
-    "book": "前端",
-    "title": "git提交规范",
-    "file": "44851988-rs8s8g/git提交规范.md",
-    "updated": "2024-01-02T07:41:39.000Z",
-    "chars": 111,
-    "codeBlocks": 0,
-    "images": 0,
-    "headings": [
-      "一、关键词"
-    ],
-    "flags": [
-      "short"
     ]
   },
   {
@@ -4822,19 +3605,6 @@
     "flags": [
       "code_heavy"
     ]
-  },
-  {
-    "book": "前端",
-    "title": "Vue组件化的理解",
-    "file": "44851988-rs8s8g/Vue组件化的理解.md",
-    "updated": "2021-01-29T12:59:21.000Z",
-    "chars": 450,
-    "codeBlocks": 0,
-    "images": 0,
-    "headings": [
-      "背景与思路"
-    ],
-    "flags": []
   },
   {
     "book": "前端",
@@ -4982,25 +3752,6 @@
   },
   {
     "book": "前端",
-    "title": "NodeJS中的事件循环",
-    "file": "44851988-rs8s8g/NodeJS中的事件循环.md",
-    "updated": "2024-07-10T09:24:30.000Z",
-    "chars": 2212,
-    "codeBlocks": 1,
-    "images": 3,
-    "headings": [
-      "NodeJS事件循环的6个阶段",
-      "三个重要的阶段",
-      "timer阶段",
-      "代码示例",
-      "poll 阶段",
-      "check 阶段",
-      "与浏览器中事件循环的差别"
-    ],
-    "flags": []
-  },
-  {
-    "book": "前端",
     "title": "栈",
     "file": "44851988-rs8s8g/栈.md",
     "updated": "2023-03-13T13:54:20.000Z",
@@ -5031,23 +3782,6 @@
       "二、选择排序",
       "三、归并排序",
       "四、快速排序"
-    ],
-    "flags": []
-  },
-  {
-    "book": "前端",
-    "title": "谈谈你对Vue响应式的理解",
-    "file": "44851988-rs8s8g/谈谈你对Vue响应式的理解.md",
-    "updated": "2021-03-03T13:15:58.000Z",
-    "chars": 1812,
-    "codeBlocks": 0,
-    "images": 0,
-    "headings": [
-      "what",
-      "why",
-      "来到Vue",
-      "Vue3中的响应式",
-      "可以简化为"
     ],
     "flags": []
   },
@@ -5109,52 +3843,6 @@
   },
   {
     "book": "前端",
-    "title": "diff算法的理解",
-    "file": "44851988-rs8s8g/diff算法的理解.md",
-    "updated": "2024-07-10T13:37:55.000Z",
-    "chars": 559,
-    "codeBlocks": 0,
-    "images": 0,
-    "headings": [
-      "what",
-      "why",
-      "when",
-      "how"
-    ],
-    "flags": []
-  },
-  {
-    "book": "前端",
-    "title": "CSS重点面试题",
-    "file": "44851988-rs8s8g/CSS重点面试题.md",
-    "updated": "2021-03-17T12:52:09.000Z",
-    "chars": 3233,
-    "codeBlocks": 0,
-    "images": 0,
-    "headings": [
-      "HTML相关面试题"
-    ],
-    "flags": [
-      "needs_structure",
-      "structure_optimized"
-    ]
-  },
-  {
-    "book": "前端",
-    "title": "http系列各种面试题",
-    "file": "44851988-rs8s8g/http系列各种面试题.md",
-    "updated": "2023-03-06T10:08:12.000Z",
-    "chars": 459,
-    "codeBlocks": 0,
-    "images": 0,
-    "headings": [
-      "1、 聊⼀聊HTTP的部⾸有哪些？",
-      "2、对头阻塞"
-    ],
-    "flags": []
-  },
-  {
-    "book": "前端",
     "title": "TypeScript支持",
     "file": "44851988-rs8s8g/TypeScript支持.md",
     "updated": "2023-08-01T07:09:40.000Z",
@@ -5193,32 +3881,6 @@
     "flags": [
       "short"
     ]
-  },
-  {
-    "book": "前端",
-    "title": "怎么打包单页应用，怎么打包多页应用，注意事项？",
-    "file": "44851988-rs8s8g/怎么打包单页应用，怎么打包多页应用，注意事项？.md",
-    "updated": "2021-03-05T13:58:23.000Z",
-    "chars": 318,
-    "codeBlocks": 0,
-    "images": 0,
-    "headings": [
-      "背景与思路"
-    ],
-    "flags": []
-  },
-  {
-    "book": "前端",
-    "title": "webpack来优化前端性能",
-    "file": "44851988-rs8s8g/webpack来优化前端性能.md",
-    "updated": "2021-03-05T13:50:12.000Z",
-    "chars": 870,
-    "codeBlocks": 0,
-    "images": 0,
-    "headings": [
-      "面试"
-    ],
-    "flags": []
   },
   {
     "book": "前端",
@@ -5362,53 +4024,6 @@
       "5.1. 子组件：CustomInput.vue",
       "5.2. 父组件：App.vue",
       "5.3. 进阶用法：处理数据转换 (使用 `set / get`)"
-    ],
-    "flags": [
-      "code_heavy"
-    ]
-  },
-  {
-    "book": "开源",
-    "title": "第一篇—项目初始化",
-    "file": "48466893-qd0t47/第一篇—项目初始化.md",
-    "updated": "2024-02-21T14:30:06.000Z",
-    "chars": 1440,
-    "codeBlocks": 6,
-    "images": 1,
-    "headings": [
-      "一、克隆项目",
-      "代码示例",
-      "二、安装依赖",
-      "2.1、解决安装puppeteer报错",
-      "三、运行"
-    ],
-    "flags": [
-      "code_heavy"
-    ]
-  },
-  {
-    "book": "开源",
-    "title": "typeChallengs错题本",
-    "file": "48466893-qd0t47/typeChallengs错题本.md",
-    "updated": "2024-03-13T09:42:11.000Z",
-    "chars": 9120,
-    "codeBlocks": 25,
-    "images": 0,
-    "headings": [
-      "Easy",
-      "元组转化为对象",
-      "代码示例",
-      "获取元组的长度",
-      "Awaited",
-      "Parameters",
-      "Medium",
-      "获取函数返回类型",
-      "实现Omit",
-      "对象部分属性已读",
-      "元素转合集",
-      "Promise.all",
-      "LookUp查找类型",
-      "TrimLeft"
     ],
     "flags": [
       "code_heavy"

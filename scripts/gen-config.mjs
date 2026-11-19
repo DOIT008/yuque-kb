@@ -54,10 +54,10 @@ let sidebar = '[\n';
 for (const g of groups) {
   const label = bookLabels[g] || g.replace(/^\d+-/, '').replace(/^\d+-[\w-]+-/, '').replace(/^[^-]+-/, '');
   const files = fs.readdirSync(path.join(docs, g)).filter(f => f.endsWith('.md')).sort();
-  if (files.length) {
-    const firstName = files[0].replace(/\.md$/, '');
-    nav += `  { text: ${JSON.stringify(label)}, link: ${JSON.stringify('/' + g + '/' + firstName)} },\n`;
-  }
+  // 空知识库（例如删空后的「开源」）不生成导航项和侧边栏分组，避免出现空的点开项。
+  if (!files.length) continue;
+  const firstName = files[0].replace(/\.md$/, '');
+  nav += `  { text: ${JSON.stringify(label)}, link: ${JSON.stringify('/' + g + '/' + firstName)} },\n`;
 
   if (g === '44851988-rs8s8g') {
     // 前端：顶层折叠，子分组也默认折叠
