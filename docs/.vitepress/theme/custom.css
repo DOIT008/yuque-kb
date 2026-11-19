@@ -324,6 +324,40 @@ samp,
   animation: page-enter 0.28s cubic-bezier(0.22, 1, 0.36, 1) both;
 }
 
+/* ---------- 右侧「本页目录」收窄 ---------- */
+@media (min-width: 1280px) {
+  .VPDoc.has-aside .aside {
+    max-width: 200px !important;
+    padding-left: 24px !important;
+  }
+  .VPDoc.has-aside .aside-container {
+    width: 176px !important;
+  }
+  .VPDoc.has-aside .aside-curtain {
+    width: 176px !important;
+  }
+}
+
+/* ---------- 右侧目录高亮强化 ---------- */
+.VPDocAsideOutline .outline-link {
+  transition: color 0.2s, background-color 0.2s, box-shadow 0.2s;
+  border-radius: 4px;
+  padding-left: 8px;
+}
+.VPDocAsideOutline .outline-link.nested {
+  padding-left: 21px;
+}
+.VPDocAsideOutline .outline-link:hover {
+  color: var(--vp-c-brand-1);
+}
+/* VitePress 原生 active 只是变深，这里改成品牌色 + 浅底 + 左侧指示条 */
+.VPDocAsideOutline .outline-link.active {
+  color: var(--vp-c-brand-1) !important;
+  font-weight: 600;
+  background-color: var(--vp-c-brand-soft);
+  box-shadow: inset 2px 0 0 var(--vp-c-brand-1);
+}
+
 @media (prefers-reduced-motion: reduce) {
   .VPDoc.page-enter .vp-doc {
     animation: none;
