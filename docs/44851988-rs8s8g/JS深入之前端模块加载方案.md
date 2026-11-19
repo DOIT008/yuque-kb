@@ -33,7 +33,7 @@ updated: "2024-08-02T14:51:02.000Z"
 
 目录结构:
 
-![2020-11-08_111338.png](https://cdn.nlark.com/yuque/0/2020/png/1528528/1604805237775-30654e79-5f1c-44dd-8c62-2aaf6f37aae4.png)
+![2020-11-08_111338.png](/images/255eab6111e46178.png)
 
 index.html
 

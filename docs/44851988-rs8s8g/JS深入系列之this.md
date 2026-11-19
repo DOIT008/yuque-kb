@@ -17,7 +17,7 @@ updated: "2020-06-11T14:34:16.000Z"
 - 参考网站
 :::
 
-![582aab54143d5.png](https://cdn.nlark.com/yuque/0/2020/png/1528528/1591885798021-d38f2f49-01c6-4cb2-a11a-e4178fc08b6d.png)
+![582aab54143d5.png](/images/562fa8bedd91a919.png)
 
 和词法作用域相反，函数内this的指向是在函数调用的时候确定的，this的指向于当前函数的最直接的调用者！
 

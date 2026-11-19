@@ -42,11 +42,11 @@ alibaba / f2e-spec
 
 在使用`f2elint scan`命令的时候可能会报错，不要紧只需要根据报错信息安装相关依赖就行了，比如有时候你在已有的项目上使用该命令会报如下错误：
 
-![image.png](https://cdn.nlark.com/yuque/0/2023/png/1528528/1682577334674-63cf5d53-4b5b-4fd4-a799-772d0d2609f1.png)
+![image.png](/images/dde23481562d9c70.png)
 
 或者
 
-![image.png](https://cdn.nlark.com/yuque/0/2023/png/1528528/1682577370589-b1ba105e-0a4f-4efe-83fb-9c3db677e56d.png)
+![image.png](/images/a5ab2a78738cbc4c.png)
 
 其实都是因为没有安装相关的依赖造成的，直接使用npm安装依赖即可，比如上述图片很明显是少了`eslint-config-ali`和`vue-plugin-parser`，那么我们就安装即可：
 

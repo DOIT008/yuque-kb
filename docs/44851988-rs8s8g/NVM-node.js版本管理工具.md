@@ -20,7 +20,7 @@ updated: "2024-09-20T08:36:56.000Z"
 
 注意：一定要用“管理员”的方式打开命令行 ！
 
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/1528528/1649861391431-50ed3ae5-0773-43b3-b015-b30a7ea6f76b.png)
+![image.png](/images/69b1ce0a9c97d364.png)
 
 剩下的就顺其自然了，更多命令可以看[NVM，一个nodejs版本管理工具！](http://nvm.uihtm.com/)
 

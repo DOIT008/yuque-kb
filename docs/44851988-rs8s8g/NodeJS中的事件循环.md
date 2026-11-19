@@ -22,7 +22,7 @@ Node.js采用V8作为js的解析引擎，而I/O处理方面使用了自己设计
 
 根据Node.js官方介绍，每次事件循环都包含了6个阶段，对应到 libuv 源码中的实现，如下图所示：
 
-![20190410105419532.png](https://cdn.nlark.com/yuque/0/2021/png/1528528/1614087618800-57681c58-c1d1-47b4-87e2-e428858be434.png)
+![20190410105419532.png](/images/900d976c2c062cf5.png)
 
 ## NodeJS事件循环的6个阶段
 
@@ -83,8 +83,8 @@ setImmediate()的回调会被加入check队列中， 从event loop的阶段图�
 
 浏览器环境下，**microtask的任务队列是每个macrotask执行完之后执行。**
 
-![20190410123500323.png](https://cdn.nlark.com/yuque/0/2021/png/1528528/1614088285074-7143de20-8f82-46cb-a509-5502926d1d69.png)
+![20190410123500323.png](/images/806ca20deecae5d1.png)
 
 而在Node.js中，**microtask会在事件循环的各个阶段之间执行，也就是一个阶段执行完毕，就会去执行microtask队列的任务。**
 
-![20190410123532304.png](https://cdn.nlark.com/yuque/0/2021/png/1528528/1614088353690-ae89151b-ca1c-4eab-9d0a-5c25d60a1e1d.png)
+![20190410123532304.png](/images/e4be92f601019bcf.png)

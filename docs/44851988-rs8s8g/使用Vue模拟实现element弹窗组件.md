@@ -14,7 +14,7 @@ updated: "2020-07-19T01:30:36.000Z"
 - 参考文章
 :::
 
-![timg.png](https://cdn.nlark.com/yuque/0/2020/png/1528528/1594910476376-83d9964f-d1bf-425a-b405-e08722da2481.png)
+![timg.png](/images/d4fabc5a6f17ac10.png)
 
 以前我们在使用组件的时候都是先用import引入，然后在components注册，最后才能使用，这是我们通常的做法。
 
@@ -137,7 +137,7 @@ export default {
 
 效果图
 
-![2020-07-16_223052.png](https://cdn.nlark.com/yuque/0/2020/png/1528528/1594909891885-1c7fbdca-1934-421e-8363-a8d8ed963889.png)
+![2020-07-16_223052.png](/images/c4f6af2bcb8c262a.png)
 
 2秒后消失
 

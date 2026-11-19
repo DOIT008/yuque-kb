@@ -18,7 +18,7 @@ updated: "2024-06-28T12:38:35.000Z"
 
 ## 
 
-![u=1677434373,3425086464&fm=15&gp=0.jpg](https://cdn.nlark.com/yuque/0/2020/jpeg/1528528/1598695156628-fe1183b9-dfea-4062-bd9b-547cd25ce61f.jpeg)
+![u=1677434373,3425086464&fm=15&gp=0.jpg](/images/fdbb7ec514007712.jpg)
 
 ## 基本概念
 

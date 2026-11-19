@@ -75,7 +75,7 @@ sudo cp wrk /usr/local/bin
 > 
 > 
 
-![image.png](https://cdn.nlark.com/yuque/0/2025/png/1528528/1755683725157-5db6d329-deb6-42b2-abd2-598f80a62925.png)
+![image.png](/images/1082e84fb171eecf.png)
 
 ## 2\. 通过Docker安装（备选方案）
 
@@ -144,7 +144,7 @@ https://zhuanlan.zhihu.com/p/552756287
 
 ## 四、wrk测试结果解读
 
-![image.png](https://cdn.nlark.com/yuque/0/2025/png/1528528/1755759810244-cd5bf4f7-a831-4c00-9a85-e98d70bee8da.png)
+![image.png](/images/e03ae24b8011c494.png)
 
 ## 一、WRK2压测报告字段解析
 

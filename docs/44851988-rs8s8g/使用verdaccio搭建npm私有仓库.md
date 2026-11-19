@@ -47,11 +47,11 @@ verdaccio
 
 如果你能看见下面的界面，则表示安装成功
 
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/1528528/1671333339782-d467776c-f7cc-4bf5-b08f-ab3adc9bed79.png)
+![image.png](/images/1b2e31fa2b133d89.png)
 
 访问：
 
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/1528528/1671332988485-fbbe38ed-adcc-42ba-889e-731396553674.png)
+![image.png](/images/23daafcbf0aa36e0.png)
 
 表示成功。
 
@@ -148,7 +148,7 @@ pm2 start C:\nvm\v16.10.0\node_modules\verdaccio\bin\verdaccio
 
 如果是这样就表明启动成功了：
 
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/1528528/1671334107953-c85e6031-84be-45fa-af9a-fa2526fc9c94.png)
+![image.png](/images/f6a5eaf2a8abed68.png)
 
 ## 四、使用nrm管理仓源
 
@@ -201,13 +201,13 @@ $ npm who am i
 
 ```
 
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/1528528/1671342110597-6cc52651-f572-4ec7-b7f4-98beb6745030.png)
+![image.png](/images/36e62fb4e1d5c33f.png)
 
 ### 5.3、删除用户
 
 用户的注册信息保存在`htpasswd`文件，你只需要打开文件删除某个记录即可
 
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/1528528/1671348264150-13c3ac5f-9175-42fd-b5c2-a73b0aa8d07d.png)
+![image.png](/images/17d91ddff68d212b.png)
 
 ## 六、发布包
 
@@ -215,7 +215,7 @@ $ npm who am i
 
 将组件包放在这个目录下：其实就是`yaml`文件所在目录
 
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/1528528/1671346813946-70941ee2-81cf-4f68-b045-293ad2641cfd.png)
+![image.png](/images/a0af49381fd26fbc.png)
 
 ```powershell
 # 来到包内部
@@ -253,7 +253,7 @@ npm notice
 
 刷新界面[http://192.168.10.161:4873/](http://192.168.10.161:4873/)，你就会看到已经发布成功的包了。
 
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/1528528/1671347640385-536837e8-4c37-48d1-9acf-2e163e121ac6.png)
+![image.png](/images/8e98519157f38b4b.png)
 
 如果没有，看下到底**登陆**了没~
 

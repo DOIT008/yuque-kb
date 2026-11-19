@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="240" viewBox="0 0 640 240">
+  <rect width="640" height="240" rx="12" fill="#f3f5f7"/>
+  <g fill="#9aa7b3" font-family="system-ui, -apple-system, Segoe UI, sans-serif" text-anchor="middle">
+    <text x="320" y="102" font-size="42">🖼</text>
+    <text x="320" y="142" font-size="20">原图链接已失效</text>
+    <text x="320" y="174" font-size="14">图片来自语雀原文，源站已无法访问</text>
+  </g>
+</svg>

@@ -23,7 +23,7 @@ updated: "2023-01-16T10:44:22.000Z"
 
 其实Vue3.x中的Vuex和Vue2差不多，还是分为`state`，`getters`，`mutations`，`actions`，`module`，但是写法却有些许差别，先看官方建议的Vuex解构吧：
 
-![2021-06-03_202826.png](https://cdn.nlark.com/yuque/0/2021/png/1528528/1622723371813-62c94667-a6ac-44a7-89b5-3b65d2b2cf02.png)
+![2021-06-03_202826.png](/images/4acef3497f88b725.png)
 
 ## 安装
 

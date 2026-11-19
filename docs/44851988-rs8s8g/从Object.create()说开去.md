@@ -103,7 +103,7 @@ console.log(obj)//你会发现obj没有原型对象
 
 你会发现是这样的——
 
-![162b2ef45967219d.png](https://cdn.nlark.com/yuque/0/2020/png/1528528/1603593415529-115bf3d7-9773-435c-88cd-30a7bb4057b5.png)
+![162b2ef45967219d.png](/images/daac36f70179ffbc.png)
 
 多了一层，所以如果要和最初的一样，就要这样使用：
 

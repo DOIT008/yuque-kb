@@ -43,7 +43,7 @@ ctrl+win+g #（自后期定义）函数注释
 
 设置里面搜`“paramete hints”`
 
-![image.png](https://cdn.nlark.com/yuque/0/2026/png/1528528/1772241506332-7077c79d-b5dc-43c6-97c2-1c1cefb87453.png)
+![image.png](/images/d72bcddec12ded9e.png)
 
   
 

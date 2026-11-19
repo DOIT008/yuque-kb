@@ -8,25 +8,25 @@ updated: "2025-03-03T06:57:28.000Z"
 
 > 来源：语雀「工作」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/nmkii5/bkbbfprwwxqw9mzg)
 
-![PixPin_2025-02-28_09-01-06.png](https://cdn.nlark.com/yuque/0/2025/png/1528528/1740704578924-0da5433b-9d9c-4044-80d6-a2fcd97be6e4.png)
+![PixPin_2025-02-28_09-01-06.png](/images/89e4af6e7424c852.png)
 
-![PixPin_2025-02-28_09-01-44.png](https://cdn.nlark.com/yuque/0/2025/png/1528528/1740704579065-b3dd3b29-4f7a-4f24-9b2e-14da83cbc0ed.png)
+![PixPin_2025-02-28_09-01-44.png](/images/318a6e2f69798b4d.png)
 
 ## 也就是说现在我最重要的是优先把Vue深入挖掘？
 
-![image.png](https://cdn.nlark.com/yuque/0/2025/png/1528528/1740916552310-d5ff5b46-7173-4c1b-b737-7ac178a76628.png)
+![image.png](/images/c643e5566c91f68f.png)
 
 ## 再详细点，给出优先级的行动步骤？
 
-![image.png](https://cdn.nlark.com/yuque/0/2025/png/1528528/1740916359857-0c008b5e-41d4-4b44-848b-899784e2a3f1.png)
+![image.png](/images/5aa4cfa58acc814f.png)
 
 ## 你对技术护城河的理解，并给我一个忠告
 
-![image.png](https://cdn.nlark.com/yuque/0/2025/png/1528528/1740915975532-9afca0c5-3830-40db-8f6d-353b421c0bc2.png)
+![image.png](/images/20f7c392fad07b76.png)
 
 ## 左耳朵耗子（P9）——忠告
 
-![image.png](https://cdn.nlark.com/yuque/0/2025/png/1528528/1740917149569-45288602-b40f-49d1-9b4b-ad4e7746987c.png)
+![image.png](/images/af533d8e5dd0d268.png)
 
   
 

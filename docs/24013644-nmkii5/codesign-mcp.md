@@ -31,7 +31,7 @@ codesign-mcp
 }
 ```
 
-![image.png](https://cdn.nlark.com/yuque/0/2026/png/1528528/1788836074717-87c2e188-29ab-4e24-a4ac-b53695d5734c.png)
+![image.png](/images/7e8a51d909abdf8c.png)
 
 可以点击面板上的快速体验按钮，先测试一下具体的功能
 
@@ -39,13 +39,13 @@ codesign-mcp
 > 
 > 地址：C:\\Program Files\\nodejs\\node\_modules\\codesign-mcp 搜索关键词，然后在面板中刷新一下即可
 
-![image.png](https://cdn.nlark.com/yuque/0/2026/png/1528528/1788839221853-e2271da4-338a-4cef-9c7c-f269351b85b1.png)
+![image.png](/images/0c01c27d5a23a67f.png)
 
 ## 配置 SKILL
 
 在 `Qoder--Qoder IDE 设置--技能、智能体、指令--导入--用户级/项目级`，在聊天面板选择智能体 
 
-![image.png](https://cdn.nlark.com/yuque/0/2026/png/1528528/1789000887993-c709ea48-73c4-4511-9b01-d9f85a540747.png)
+![image.png](/images/177d9c398dcca6ae.png)
 
  ，在输入框中使用斜杠选择 `codesign-to-page`然后把 UI 设计的分享链接一起发出去即可，也可以在后面追加条件，也可当独执行上图中的某些命令
 

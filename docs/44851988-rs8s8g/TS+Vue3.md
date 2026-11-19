@@ -237,7 +237,7 @@ const double = computed<string>(() => {
 
 ## 目录
 
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/1528528/1625755733682-19c97304-9d5d-49b8-b3d9-c09b1d9fa91c.png)
+![image.png](/images/852041b47f7c89c0.png)
 
 ## 基础模式
 
@@ -463,7 +463,7 @@ export default defineComponent({
 
 1.  在路由文件中引入某个组件时报错：
 
-![image.png](https://cdn.nlark.com/yuque/0/2023/png/1528528/1673837208300-9a184f53-ab96-4f8c-8e13-071d4d73562b.png)
+![image.png](/images/edbb14a3cdd03cd8.png)
 
 参考：[VSCode 中，TS 提示 ”无法找到 \*.vue 声明文件“ 的解决方案](https://zhuanlan.zhihu.com/p/415088917)
 

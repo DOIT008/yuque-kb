@@ -10,7 +10,7 @@ updated: "2024-07-23T13:38:51.000Z"
 
 ## 背景与思路
 
-![timg.png](https://cdn.nlark.com/yuque/0/2020/png/1528528/1593955684687-4c39728b-e33c-492f-8cf8-46ddb11b89f4.png)
+![timg.png](/images/09c1f1c173a2ac0a.png)
 
 一般而言如果要想在组件间共享数据，我们首先想到的恐怕就是Vuex，可就像Vue官网上说的那样--Vuex一般用在大型项目上，如果在小项目上使用Vuex就有点大才小用了🤣，那么在小项目上有没有类似Vuex的东西呢？
 

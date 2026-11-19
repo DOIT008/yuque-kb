@@ -18,7 +18,7 @@ updated: "2025-08-27T01:38:18.000Z"
 
 错误原因：可能是由于你使用了 [VPN](https://so.csdn.net/so/search?q=VPN&spm=1001.2101.3001.7020) 改变了系统端口。 
 
-![57bd48a5-dcbb-4ebf-8566-d433d9bddd72.png](https://cdn.nlark.com/yuque/0/2025/png/1528528/1756257915102-57bd48a5-dcbb-4ebf-8566-d433d9bddd72.png)
+![57bd48a5-dcbb-4ebf-8566-d433d9bddd72.png](/images/0a98960a0554702a.png)
 
   
 查看系统[网络设置](https://so.csdn.net/so/search?q=%E7%BD%91%E7%BB%9C%E8%AE%BE%E7%BD%AE&spm=1001.2101.3001.7020)\-代理-复制这个端口号  

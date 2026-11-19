@@ -27,4 +27,4 @@ updated: "2021-03-19T12:13:19.000Z"
 
 > webpack-bundle-analyzer：webpack打包文件体积和依赖关系的可视化
 
-![2021-03-19_201247.png](https://cdn.nlark.com/yuque/0/2021/png/1528528/1616155994112-3df7a376-b2df-4c82-bfa1-2bff0f5171c4.png)
+![2021-03-19_201247.png](/images/41adec08c88b137f.png)

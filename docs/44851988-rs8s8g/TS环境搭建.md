@@ -64,7 +64,7 @@ tsc --init
 
 自动编译运行，这里要使用到`菜单-终端-运行任务-显示所有任务-tsc:监视tsconfig.json`，如下图所示：
 
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/1528528/1639007663105-0830d97f-278d-4a98-91c5-d230d135bb39.png)
+![image.png](/images/fb5f29d6d31d3dad.png)
 
 ## 1.3 配合alloy-team
 

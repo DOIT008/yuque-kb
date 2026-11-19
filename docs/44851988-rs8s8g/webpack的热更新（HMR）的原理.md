@@ -12,7 +12,7 @@ webpack的热更新⼜称热替换（Hot Module Replacement），缩写为HMR。
 
 ## 原理
 
-![2021-02-24_073931.png](https://cdn.nlark.com/yuque/0/2021/png/1528528/1614123666410-38e8811c-a75d-4253-8f74-5d42065d7743.png)
+![2021-02-24_073931.png](/images/724bb5683813faf8.png)
 
 ⾸先要知道server端和client端都做了处理⼯作
 

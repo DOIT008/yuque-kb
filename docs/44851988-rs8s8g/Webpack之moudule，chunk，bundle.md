@@ -52,7 +52,7 @@ chunk代码块，是在打包的过程中产生的一个产物，**一个chunk�
 
 **
 
-![未命名绘图.png](https://cdn.nlark.com/yuque/0/2021/png/1528528/1612446386581-3357d550-79e5-4f53-aa3a-2af359a80910.png)
+![未命名绘图.png](/images/f935af6de111a90c.png)
 
 **
 

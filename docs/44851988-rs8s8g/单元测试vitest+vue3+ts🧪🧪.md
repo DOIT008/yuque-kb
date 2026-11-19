@@ -107,7 +107,7 @@ export default defineConfig({
 
 目录
 
-![image.png](https://cdn.nlark.com/yuque/0/2023/png/1528528/1675323846069-8ceb11c5-dac4-4722-951d-c4e434e5c1a3.png)
+![image.png](/images/e8e677fa6d76660a.png)
 
 安装依赖
 
@@ -137,7 +137,7 @@ export default defineConfig({
 
 如上图所示，因为`tests`文件夹和`src`文件夹是同一级，所以还要在`tsconfig.json`配置属性`include`
 
-![image.png](https://cdn.nlark.com/yuque/0/2023/png/1528528/1675324005820-b9fdcefc-91b1-45a5-82c9-89806924e648.png)
+![image.png](/images/9053f30ada75d2ba.png)
 
 > 当然如果tests文件夹在src内部就可以省略了，因为已经符合src/\*\*/\*.ts啦
 

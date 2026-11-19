@@ -382,7 +382,7 @@ let dogPrototype = {
     dog.doing() // 拆家中
 ```
 
-![image.png](https://cdn.nlark.com/yuque/0/2023/png/1528528/1678439920890-d7821548-c323-46a0-9dd5-311afca1ab29.png)
+![image.png](/images/c0c81c89b288f266.png)
 
 ## 二、Proxy
 

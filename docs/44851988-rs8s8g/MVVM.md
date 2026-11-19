@@ -35,7 +35,7 @@ Vue的核心思想是：
 
   
 
-![Vue的MVVM](https://s1.ax1x.com/2020/03/19/86CVO0.png)
+![Vue的MVVM](/images/source-missing.svg)
 
   
 

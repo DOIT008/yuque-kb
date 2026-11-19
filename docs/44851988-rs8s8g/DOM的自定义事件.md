@@ -8,7 +8,7 @@ updated: "2020-08-23T04:14:37.000Z"
 
 > 来源：语雀「前端」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/rs8s8g/hm96ux)
 
-![timg.jpg](https://cdn.nlark.com/yuque/0/2020/jpeg/1528528/1598156067069-7e3a96af-a2f5-49d5-829a-c7cd121665b4.jpeg)
+![timg.jpg](/images/20418beac0facf01.jpg)
 
 在使用Vue进行项目开发的时候，我们经常使用emit来触发一些自定义事件，总感觉很神奇，总想弄清楚自定义事件是如何实现的，结果还是在《JavaScript高级程序设计》找到了答案。
 

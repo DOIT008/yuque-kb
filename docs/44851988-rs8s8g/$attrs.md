@@ -12,7 +12,7 @@ updated: "2023-09-08T09:38:56.000Z"
 
 一个很常见的例子——根据ElementUI封装我们自己的表格，要求是能够继承ElementUI自己的写法，我们知道ElementUI上的表格有很多属性——
 
-![image.png](https://cdn.nlark.com/yuque/0/2023/png/1528528/1682673372968-56eea1e3-0e6e-4194-8562-cbd5ad310188.png)
+![image.png](/images/22ecc19c20ddcff9.png)
 
 这些属性，不可能显式地通过`props`都传递过去，这时候就可以在子组件内使用`v-bind="$attrs"`绑定那些剩余的属性（数据），例如我们封装一个`custom-table`组件：
 

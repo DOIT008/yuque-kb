@@ -8,7 +8,7 @@ updated: "2020-10-17T02:46:14.000Z"
 
 > 来源：语雀「前端」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/rs8s8g/hzcfun)
 
-![图片](https://cdn.nlark.com/yuque/0/2020/webp/1528528/1592055336349-5fe745ee-0cc8-4287-aa09-785f601e4b4f.webp)
+![图片](/images/3850057303a69a7e.webp)
 
 我们知道JS中的变量是存在于内存中的，内存中又分为**堆(heap)和栈(stack)，**那么究竟哪些数据存储于堆中，哪些又存存储在栈中呢？  
     答案是---基本类型的数据比如**小数值Number，String，Boolean，和复杂数据(对象)类型的索引(指针)存储在栈中**。因为**方便快速写入和读取数据。**在访问数据时，先从栈内寻找相应数据的存储地址，再根据获得的地址，找到堆内该变量真正存储的内容读取出来。
@@ -17,7 +17,7 @@ updated: "2020-10-17T02:46:14.000Z"
 
   
 
-![图片](https://cdn.nlark.com/yuque/0/2020/png/1528528/1592055186598-ac44783d-ab5f-48ab-b3f3-a2d6bda9edfb.png)
+![图片](/images/354da4e263145b81.png)
 
 ## 
 

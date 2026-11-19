@@ -5,7 +5,19 @@ import TurndownService from 'turndown';
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, '$1')), '..');
 const RAW = path.join(ROOT, 'raw', 'docs');
 const OUT = path.join(ROOT, 'docs');
+const MANIFEST = path.join(ROOT, 'scripts', 'image-manifest.json');
 const LOGIN = 'alipayqxigqpgusn';
+
+const imageManifest = fs.existsSync(MANIFEST)
+  ? JSON.parse(fs.readFileSync(MANIFEST, 'utf8'))
+  : {};
+
+function localizeImages(md) {
+  return md.replace(/!\[([^\]]*)\]\((https?:\/\/[^\s)]+)([^)]*)\)/g, (all, alt, url, rest) => {
+    const local = imageManifest[url];
+    return local ? `![${alt}](${local}${rest})` : all;
+  });
+}
 
 const books = [
   { id: 24013644, slug: 'nmkii5', name: '工作' },
@@ -265,7 +277,7 @@ for (const book of books) {
       ''
     ].join('\n');
 
-    const finalMd = front + body + '\n';
+    const finalMd = localizeImages(front + body + '\n');
     let safeName = doc.title.replace(/[\\/:*?"<>|]/g, '-').replace(/\s+/g, ' ').trim();
     const seen = titleCount.get(safeName) || 0;
     titleCount.set(safeName, seen + 1);

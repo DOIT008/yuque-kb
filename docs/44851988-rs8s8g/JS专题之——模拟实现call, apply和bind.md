@@ -83,7 +83,7 @@ getValue.call2(obj,'马占山',45)// 123 马占山 45
 
 对于call而言，如果第一个参数穿的是 `null` 或者 `undefined` 那么函数内部的this指向的是 `window` （浏览器）
 
-![code.png](https://cdn.nlark.com/yuque/0/2020/png/1528528/1596332819281-52ad04c2-d2d4-49c1-b483-6d98da4cabdf.png)
+![code.png](/images/2a64311afb08cad5.png)
 
   
 

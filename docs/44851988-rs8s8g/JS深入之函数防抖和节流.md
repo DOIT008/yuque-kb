@@ -23,7 +23,7 @@ updated: "2023-08-07T14:53:57.000Z"
 
 ## 
 
-![timg.jpg](https://cdn.nlark.com/yuque/0/2020/jpeg/1528528/1602385847193-83f6c375-15cb-46b5-b39a-02bc5d771f05.jpeg)
+![timg.jpg](/images/00e173699d694606.jpg)
 
 ## 防抖
 

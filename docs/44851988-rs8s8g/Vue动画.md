@@ -32,7 +32,7 @@ updated: "2020-06-13T15:13:01.000Z"
 
   
 
-![图片](https://upload-images.jianshu.io/upload_images/18851057-5cb0a95e7b3ef5ad.png?imageMogr2/auto-orient/strip%7CimageView2/2/format/webp)
+![图片](/images/3b47f01c8f86b636.png)
 
   
 

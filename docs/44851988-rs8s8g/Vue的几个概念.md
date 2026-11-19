@@ -172,7 +172,7 @@ watch:{
 
   
 
-![图片](https://upload-images.jianshu.io/upload_images/3985563-b6bb266285e8d232.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/152/format/webp)
+![图片](/images/e163e9aad7f05c68.png)
 
   
 
@@ -204,7 +204,7 @@ new Vue({
 
   
 
-![图片](https://upload-images.jianshu.io/upload_images/3985563-f49bff3190724514.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/341/format/webp)
+![图片](/images/3d3bf5ed8f24b14f.png)
 
   
 
@@ -355,7 +355,7 @@ export default {
 
   
 
-![图片](https://s2.ax1x.com/2020/02/20/3ePH1O.png)
+![图片](/images/c05a43f4609ed8c3.png)
 
 ### 5.1 具名插槽
 

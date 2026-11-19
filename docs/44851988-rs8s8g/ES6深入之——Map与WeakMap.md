@@ -44,7 +44,7 @@ console.log(data['[object HTMLDivElement]']);
 
 在上面的代码中，我们创建了一个对象并将一个节点对象作为了它的键名，并进行了代码测试，首先验证了获取到的`element`节点为一个对象，再确定了经过`toString`方法转化后的结果，以这个值为键名成功的输出了`value`值`objectData`
 
-![图片](https://cdn.nlark.com/yuque/0/2023/webp/1528528/1678257342052-7cb79f12-2a00-4df5-b772-a75050c2f7db.webp)
+![图片](/images/c2f6d264f4880e9f.webp)
 
 也就是说：**传统对象的键名会通过**`**toString**`**方法转化为字符串类型**
 
@@ -66,7 +66,7 @@ console.log(map);
 
 打印结果
 
-![image.png](https://cdn.nlark.com/yuque/0/2023/png/1528528/1678258016134-caa477c4-2553-4000-b94a-de3392001678.png)
+![image.png](/images/0801a4d368f57582.png)
 
 ### 3、Map特点
 
@@ -139,7 +139,7 @@ map.clear();
 console.log(map)
 ```
 
-![image.png](https://cdn.nlark.com/yuque/0/2023/png/1528528/1678259460982-c7f92ab3-6be8-4d27-ba79-143fa3ed58f1.png)
+![image.png](/images/9ba22fad172d022b.png)
 
 ## 三、遍历方法
 
@@ -155,7 +155,7 @@ for (const iterator of map) {
 }
 ```
 
-![image.png](https://cdn.nlark.com/yuque/0/2023/png/1528528/1678259873371-42e5b866-20eb-4f09-99b5-086cf5efedde.png)
+![image.png](/images/024e8f39c38e2ccc.png)
 
 ### 2、keys()
 
@@ -168,7 +168,7 @@ console.log(map.keys());
     }
 ```
 
-![image.png](https://cdn.nlark.com/yuque/0/2023/png/1528528/1678260105725-779bc550-1d32-496b-a20b-4b1bc039fd67.png)
+![image.png](/images/d3498ce143e8ceee.png)
 
 ### 3、 values()
 
@@ -180,7 +180,7 @@ console.log(map.keys());
     }
 ```
 
-![image.png](https://cdn.nlark.com/yuque/0/2023/png/1528528/1678260209724-3cbb4d81-95bc-4c9b-8db4-480775c4a0c4.png)
+![image.png](/images/3a40b012fd540a35.png)
 
 ### 4、entries
 
@@ -192,7 +192,7 @@ for (const iterator of map.entries()) {
     }
 ```
 
-![image.png](https://cdn.nlark.com/yuque/0/2023/png/1528528/1678260380609-4b644dfb-a117-42cc-925e-628a6836e3b7.png)
+![image.png](/images/0c2154cdac0ebcb2.png)
 
 ### 5、forEach
 
@@ -202,7 +202,7 @@ map.forEach((element,key) => {
     });
 ```
 
-![image.png](https://cdn.nlark.com/yuque/0/2023/png/1528528/1678260647823-0254f88e-4149-4a47-b8d0-3015996f14fb.png)
+![image.png](/images/4169032664ff6625.png)
 
 ## 四. map类型转化
 
@@ -217,7 +217,7 @@ let arr = [...map];
 
 返回的是键值二维数组
 
-![image.png](https://cdn.nlark.com/yuque/0/2023/png/1528528/1678260842367-2fc988a0-45d7-43c1-9e17-58a28778e694.png)
+![image.png](/images/d8438837e491c550.png)
 
 ### 2、 数组转map
 
@@ -229,7 +229,7 @@ let arr = [...map];
     console.log(map1);
 ```
 
-![image.png](https://cdn.nlark.com/yuque/0/2023/png/1528528/1678261043755-1b48b89a-7379-4f1d-bc3f-0db4203ce774.png)
+![image.png](/images/b43b0150755401dd.png)
 
 ### 3、 map转对象
 
@@ -241,7 +241,7 @@ for (const [key,val] of map) {
 console.log(obj);
 ```
 
-![image.png](https://cdn.nlark.com/yuque/0/2023/png/1528528/1678261605059-d8aeb47b-61a8-4e87-84e9-bfd2eac18ae6.png)
+![image.png](/images/b758763b8326f643.png)
 
 ### 4、对象转map
 
@@ -259,7 +259,7 @@ for (const key in obj1) {
 console.log(map2);
 ```
 
-![image.png](https://cdn.nlark.com/yuque/0/2023/png/1528528/1678261546379-f1de72ca-3eb5-4aab-8e20-4fc138f09964.png)
+![image.png](/images/e8394783b3b4291e.png)
 
 ## 五、什么是WeakMap
 
@@ -299,11 +299,11 @@ myMap.set(my, 'info');
 console.log(myMap);
 ```
 
-![图片](https://cdn.nlark.com/yuque/0/2023/webp/1528528/1678262552049-3a811058-1ab3-449a-9c17-50e0e5653965.webp)
+![图片](/images/0ec0bb273efc4d8b.webp)
 
 **弱引用的引用计数为0**，一旦my解除对上述对象的引用，上述对象就会被回收
 
-![图片](https://cdn.nlark.com/yuque/0/2023/webp/1528528/1678262677307-78d7efbd-a23d-45f2-9bce-3d4bf5845573.webp)
+![图片](/images/9a44c432e8e49ea3.webp)
 
 ### 3、不可遍历
 
@@ -317,11 +317,11 @@ console.log(myMap);
 
 因为 `weakMap` 不会影响垃圾回收，所以可以用来关联元数据
 
-![图片](https://cdn.nlark.com/yuque/0/2023/webp/1528528/1678262961125-42db0d19-aad0-46f4-8407-2d2b0994cf44.webp)
+![图片](/images/145ff2819cb6aade.webp)
 
 当上面代码执行后，登录按钮从DOM树中被删除了，但由于 Map 对节点对象是强引用关系，仍然保存着对按钮的引用，所以会引起内存泄漏。
 
-![图片](https://cdn.nlark.com/yuque/0/2023/webp/1528528/1678262975559-685539fc-d4db-4b14-938f-6bf41187950d.webp)
+![图片](/images/4c6df86efe598159.webp)
 
  因此可以采用`WeakMap`当节点删除后，引用计数为0，等待垃圾回收机制回收
 
@@ -331,13 +331,13 @@ console.log(myMap);
 
 阮一峰老师的代码实例：
 
-![图片](https://cdn.nlark.com/yuque/0/2023/webp/1528528/1678263016636-8cbb2020-dd59-4bad-8466-5742bb281f24.webp)
+![图片](/images/14f8078e7381b44f.webp)
 
 ### 3、数据缓存
 
 当我们需要在不修改原有对象的情况下储存某些属性等，而又不想管理这些数据时，可以使用`WeakMap`
 
-![图片](https://cdn.nlark.com/yuque/0/2023/webp/1528528/1678263049261-d85ad97e-d6e6-4cb3-ac25-c6b63385b71b.webp)
+![图片](/images/9a864267c2f95f59.webp)
 
 ## 八、参考
 

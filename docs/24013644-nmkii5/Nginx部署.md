@@ -39,15 +39,15 @@ publicPath: process.env.NODE_ENV === 'production' ? './' : '/', // 公共路径�
 
 打开Xftp , 点小窗口的新建
 
-![image.png](https://cdn.nlark.com/yuque/0/2023/png/1528528/1679538051960-9d04e037-4a0f-4d9b-af1e-4df8f32241fc.png)
+![image.png](/images/675278ecc086d3b5.png)
 
 点完之后弹出这个框, 填写完信息之后点连接 , 服务器的相关信息问公司的人要
 
-![image.png](https://cdn.nlark.com/yuque/0/2023/png/1528528/1679538082715-9103f678-89e2-4dfd-ad5e-9bdfd953bd48.png)
+![image.png](/images/e181d6fa883219f0.png)
 
 点完连接之后 , 弹出这个框 , 点接受并保存
 
-![image.png](https://cdn.nlark.com/yuque/0/2023/png/1528528/1679538152072-bf736e1b-f96f-4ab8-b0b4-fac6628182f4.png)
+![image.png](/images/fe19ec62434b886f.png)
 
 ## 二、安装并配置Nginx
 
@@ -57,7 +57,7 @@ publicPath: process.env.NODE_ENV === 'production' ? './' : '/', // 公共路径�
 
 > 注意Nginx的安装路径不能有中文，否则可能启动不起来！
 
-![image.png](https://cdn.nlark.com/yuque/0/2023/png/1528528/1679538474555-44157786-e66e-4236-bad1-ad6605050fac.png)
+![image.png](/images/2b655a091d7b2398.png)
 
 ### 2.2、修改配置文件
 
@@ -230,7 +230,7 @@ server {
 
 由于使用的`alias`而不是`root`，所以在打包的配置文件中的属性`publicPath`就需要从`/`改成`/paycode（第一个paycode）`，否则就会出现下面这种错误：
 
-![image.png](https://cdn.nlark.com/yuque/0/2023/png/1528528/1688985442112-52abbb77-b89d-4091-8bdf-2a1bcc89e489.png)
+![image.png](/images/b54c3cc9c0b62edb.png)
 
 接着就是重新打包，上传，然后重启`nginx`服务即可
 

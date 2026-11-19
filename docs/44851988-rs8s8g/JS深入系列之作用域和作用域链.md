@@ -18,7 +18,7 @@ updated: "2024-07-31T14:26:53.000Z"
 - 参考文章
 :::
 
-![timg (1).png](https://cdn.nlark.com/yuque/0/2020/png/1528528/1591710458937-a851f462-3be1-46ca-813e-9c8d96a2a8f3.png)
+![timg (1).png](/images/2433769b6e499477.png)
 
 ## 作用域与动态作用域
 

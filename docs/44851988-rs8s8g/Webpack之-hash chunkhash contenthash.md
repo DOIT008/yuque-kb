@@ -10,7 +10,7 @@ updated: "2021-02-06T13:56:31.000Z"
 
 ## 
 
-![timg.png](https://cdn.nlark.com/yuque/0/2020/png/1528528/1593957037659-7f38adb1-7006-4547-939d-ccb72f98634c.png)
+![timg.png](/images/579b8ec84d218901.png)
 
 ## Hash
 

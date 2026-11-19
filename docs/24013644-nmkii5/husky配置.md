@@ -28,7 +28,7 @@ Husky 是 Git 钩子工具，可以设置在 git 各个阶段（pre-commit、com
 
 Husky 安装方式：
 
-![4c88c8a3-d039-4d2c-98dd-617a2bca1991.png](https://cdn.nlark.com/yuque/0/2025/png/1528528/1750750019569-4c88c8a3-d039-4d2c-98dd-617a2bca1991.png)
+![4c88c8a3-d039-4d2c-98dd-617a2bca1991.png](/images/c8f54826bd93dd75.png)
 
 安装命令：
 
@@ -46,7 +46,7 @@ npx husky init
 
 自动生成的 `.husky` 目录和指令：
 
-![74b0810a-c7d1-40fd-a3dd-c208c88b8371.png](https://cdn.nlark.com/yuque/0/2025/png/1528528/1750750019539-74b0810a-c7d1-40fd-a3dd-c208c88b8371.png)
+![74b0810a-c7d1-40fd-a3dd-c208c88b8371.png](/images/ef0e1ba78c648223.png)
 
 ## Lint-staged
 
@@ -91,13 +91,13 @@ package.json 的 scripts 添加 `lint-staged` 指令:
 npm run lint:lint-staged
 ```
 
-![14bd288a-4b2c-4b15-b28e-a064e64ddf62.png](https://cdn.nlark.com/yuque/0/2025/png/1528528/1750750019533-14bd288a-4b2c-4b15-b28e-a064e64ddf62.png)
+![14bd288a-4b2c-4b15-b28e-a064e64ddf62.png](/images/3b9ad1a5ed110cae.png)
 
 **Git 提交代码检测**
 
 **git commit -m "test husky lint-staged"**
 
-![d55e3237-cbd0-4f46-92e2-2f58ba895557.png](https://cdn.nlark.com/yuque/0/2025/png/1528528/1750750019550-d55e3237-cbd0-4f46-92e2-2f58ba895557.png)
+![d55e3237-cbd0-4f46-92e2-2f58ba895557.png](/images/9d8908d1f6e7fcb4.png)
 
 ## Commitlint
 
@@ -135,14 +135,14 @@ echo "npx --no -- commitlint --edit \$1" > .husky/commit-msg
 
 husky9.x版本下此命令生成的`commint-msg` 配置（编码格式为UTF-16LE）：
 
-![4c21eee7-8b31-4d1f-8b40-fcba63fca3e1.png](https://cdn.nlark.com/yuque/0/2025/png/1528528/1750750019709-4c21eee7-8b31-4d1f-8b40-fcba63fca3e1.png)
+![4c21eee7-8b31-4d1f-8b40-fcba63fca3e1.png](/images/7bc1176ea280d650.png)
 
 git commit -m "不规范的提交"。测试错误如下：
 
 .husky/commit-msg: .husky/commit-msg: cannot execute binary file  
 husky - commit-msg script failed (code 126)
 
-![ba97ec11-f69a-4ad8-b82a-bd0665bbf89b.png](https://cdn.nlark.com/yuque/0/2025/png/1528528/1750750019775-ba97ec11-f69a-4ad8-b82a-bd0665bbf89b.png)
+![ba97ec11-f69a-4ad8-b82a-bd0665bbf89b.png](/images/7c232d8a144cfa26.png)
 
 解决办法：更改 `.husky` 目录下 pre-commit 文件的编码格式为 `**UTF-8**` **的编码格式**
 
@@ -263,7 +263,7 @@ customScope: '请输入自定义的提交范围 :',
 
 执行命令之后会出现询问交互，根据提示一步步的完善 commit msg 信息
 
-![611e04a7-ce8f-4ca8-a30c-97fd0ae7f6b8.png](https://cdn.nlark.com/yuque/0/2025/png/1528528/1750750020544-611e04a7-ce8f-4ca8-a30c-97fd0ae7f6b8.png)
+![611e04a7-ce8f-4ca8-a30c-97fd0ae7f6b8.png](/images/5e711308b4a4004d.png)
 
   
 参考 [有来技术](https://youlai.blog.csdn.net/?type=blog) 的 文章 [【vue3-element-admin】Husky + Lint-staged + Commitlint + Commitizen + cz-git 配置 Git 提交规范](https://blog.csdn.net/u013737132/article/details/130191363)原文链接：https://blog.csdn.net/u013737132/article/details/130191363

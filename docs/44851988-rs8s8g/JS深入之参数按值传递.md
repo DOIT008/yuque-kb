@@ -8,7 +8,7 @@ updated: "2024-01-01T08:11:08.000Z"
 
 > 来源：语雀「前端」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/rs8s8g/ped8v4)
 
-![timg.png](https://cdn.nlark.com/yuque/0/2020/png/1528528/1595945680789-46bc2a1d-dc1e-4dbb-bb99-1fb6f3b6f799.png)
+![timg.png](/images/1506d759cf8b3175.png)
 
 我们知道，JS函数的参数是按值传递的，但怎么验证呢？
 

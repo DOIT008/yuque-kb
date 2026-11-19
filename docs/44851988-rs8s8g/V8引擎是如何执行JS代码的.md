@@ -25,7 +25,7 @@ updated: "2021-02-25T15:08:20.000Z"
 
 下面的这幅图表示的就是V8引擎的编译过程：
 
-![aHR0cDovL2ltYWdlLnRob3Jud3UuY29tLzIwMTkxMTA3MDkzNzMzLnBuZw.png](https://cdn.nlark.com/yuque/0/2021/png/1528528/1614263436329-1ed62372-d79e-47f3-a090-29b40bf66a3a.png)
+![aHR0cDovL2ltYWdlLnRob3Jud3UuY29tLzIwMTkxMTA3MDkzNzMzLnBuZw.png](/images/bea609c6ee64f7c4.png)
 
 > **为啥上面还有反优化？**
 > 
@@ -33,7 +33,7 @@ updated: "2021-02-25T15:08:20.000Z"
 
 ## V8引擎具体的执行过程
 
-![20200331163541447.jpg](https://cdn.nlark.com/yuque/0/2021/jpeg/1528528/1614265528969-a8c8d4a8-f03a-4de4-8bb8-cf90231007dc.jpeg)
+![20200331163541447.jpg](/images/24a857778f3d5ca9.jpg)
 
 > **热点代码**
 > 
