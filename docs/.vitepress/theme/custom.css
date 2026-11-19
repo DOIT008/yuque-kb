@@ -19,8 +19,10 @@
   --vp-c-brand-soft: rgba(66, 184, 131, 0.14);
 
   --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: linear-gradient(120deg, #42b883 30%, #35495e);
-  --vp-home-hero-image-background-image: linear-gradient(-45deg, #42b883 50%, #35495e 50%);
+  --hero-brand: var(--vp-c-brand-1);
+  --hero-accent: #35495e;
+  --vp-home-hero-name-background: linear-gradient(120deg, var(--hero-brand) 30%, var(--hero-accent));
+  --vp-home-hero-image-background-image: linear-gradient(-45deg, var(--hero-brand) 50%, var(--hero-accent) 50%);
   --vp-home-hero-image-filter: blur(44px);
 
   /* 导航栏毛玻璃：背景半透明，backdrop-filter 才能透出背后内容 */
@@ -33,6 +35,62 @@
   --vp-c-brand-3: #2eac78;
   --vp-c-brand-soft: rgba(66, 211, 146, 0.16);
   --vp-nav-bg-color: rgba(27, 27, 31, 0.72);
+}
+
+/* ---------- 主题色切换 ----------
+   html[data-theme] 由导航栏调色板设置；默认 Vue 绿不加属性。
+   每套覆盖品牌色三档 + soft + hero 搭配色，覆盖绝大多数用 var(--vp-c-brand-*) 的元素。 */
+html[data-theme='blue'] {
+  --vp-c-brand-1: #3b82f6;
+  --vp-c-brand-2: #60a5fa;
+  --vp-c-brand-3: #2563eb;
+  --vp-c-brand-soft: rgba(59, 130, 246, 0.14);
+  --hero-accent: #1e3a5f;
+}
+html.dark[data-theme='blue'] {
+  --vp-c-brand-1: #60a5fa;
+  --vp-c-brand-2: #3b82f6;
+  --vp-c-brand-3: #93c5fd;
+  --vp-c-brand-soft: rgba(59, 130, 246, 0.18);
+}
+html[data-theme='purple'] {
+  --vp-c-brand-1: #8b5cf6;
+  --vp-c-brand-2: #a78bfa;
+  --vp-c-brand-3: #7c3aed;
+  --vp-c-brand-soft: rgba(139, 92, 246, 0.14);
+  --hero-accent: #3b2a63;
+}
+html.dark[data-theme='purple'] {
+  --vp-c-brand-1: #a78bfa;
+  --vp-c-brand-2: #8b5cf6;
+  --vp-c-brand-3: #c4b5fd;
+  --vp-c-brand-soft: rgba(139, 92, 246, 0.18);
+}
+html[data-theme='orange'] {
+  --vp-c-brand-1: #f59e0b;
+  --vp-c-brand-2: #fbbf24;
+  --vp-c-brand-3: #d97706;
+  --vp-c-brand-soft: rgba(245, 158, 11, 0.15);
+  --hero-accent: #6b4423;
+}
+html.dark[data-theme='orange'] {
+  --vp-c-brand-1: #fbbf24;
+  --vp-c-brand-2: #f59e0b;
+  --vp-c-brand-3: #fcd34d;
+  --vp-c-brand-soft: rgba(245, 158, 11, 0.18);
+}
+html[data-theme='cyan'] {
+  --vp-c-brand-1: #06b6d4;
+  --vp-c-brand-2: #22d3ee;
+  --vp-c-brand-3: #0891b2;
+  --vp-c-brand-soft: rgba(6, 182, 212, 0.14);
+  --hero-accent: #134e4a;
+}
+html.dark[data-theme='cyan'] {
+  --vp-c-brand-1: #22d3ee;
+  --vp-c-brand-2: #06b6d4;
+  --vp-c-brand-3: #67e8f9;
+  --vp-c-brand-soft: rgba(6, 182, 212, 0.18);
 }
 
 /* ---------- 导航栏毛玻璃（苹果官网风格） ----------
