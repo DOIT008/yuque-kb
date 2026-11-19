@@ -13,6 +13,10 @@ export default defineConfig({
   lastUpdated: true,
   cleanUrls: true,
   ignoreDeadLinks: true,
+  // 浏览器标签页 favicon（base 拼在前面，GitHub Pages 项目站点才找得到）
+  head: [
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: `${base}favicon.svg` }]
+  ],
   markdown: {
     container: {
       tipLabel: '提示',

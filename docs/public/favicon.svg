@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- 圆角背景 -->
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="#42b883"/>
+  <!-- 打开的书：左右两页 -->
+  <path d="M32 20 C26 16 18 15 11 17 L11 46 C18 44 26 45 32 49 C38 45 46 44 53 46 L53 17 C46 15 38 16 32 20 Z"
+        fill="#ffffff"/>
+  <!-- 书脊 -->
+  <line x1="32" y1="20" x2="32" y2="49" stroke="#35495e" stroke-width="2.5"/>
+  <!-- 书页横线 -->
+  <line x1="16" y1="25" x2="27" y2="26" stroke="#42b883" stroke-width="2" stroke-linecap="round"/>
+  <line x1="16" y1="31" x2="27" y2="32" stroke="#42b883" stroke-width="2" stroke-linecap="round"/>
+  <line x1="37" y1="26" x2="48" y2="25" stroke="#42b883" stroke-width="2" stroke-linecap="round"/>
+  <line x1="37" y1="32" x2="48" y2="31" stroke="#42b883" stroke-width="2" stroke-linecap="round"/>
+</svg>
