@@ -92,7 +92,31 @@ onBeforeUnmount(() => {
   display: flex;
   align-items: center;
   height: 100%;
-  margin-left: 2px;
+}
+/* 桌面端：把主题色圆点排到主题切换(☀)旁、社交图标之前，
+   让「主题切换 + 主题色」成为一组；与两侧留出呼吸空间，
+   并在圆点右侧画一条竖线分隔社交图标 */
+@media (min-width: 960px) {
+  html:root .theme-picker {
+    order: 1;
+    margin: 0 14px 0 6px;
+  }
+  html:root .VPNavBar .social-links { order: 2; }
+  /* 禁用 VitePress 挂在 appearance+social-links 之间的旧竖线 */
+  html:root .VPNavBar .appearance + .social-links::before {
+    display: none;
+  }
+  /* 在主题色圆点右侧画新的分隔竖线 */
+  html:root .theme-picker::after {
+    content: '';
+    position: absolute;
+    right: -9px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 22px;
+    background-color: var(--vp-c-divider);
+  }
 }
 .theme-picker-btn {
   display: inline-flex;
