@@ -3,14 +3,29 @@ import path from 'node:path';
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, '$1')), '..');
 const docs = path.join(ROOT, 'docs');
+
+// 语雀目录名是内部 slug，直接显示在导航里读者看不懂；映射成中文知识库名。
+const bookLabels = {
+  '24013644-nmkii5': '工作',
+  '44851824-qmvy1p': '生活',
+  '44851988-rs8s8g': '前端',
+  '48466893-qd0t47': '开源',
+  '58796906-gzq3v8': 'Python'
+};
+const bookOrder = ['24013644-nmkii5', '44851824-qmvy1p', '58796906-gzq3v8', '44851988-rs8s8g', '48466893-qd0t47'];
+
 const groups = fs.readdirSync(docs)
   .filter(d => fs.statSync(path.join(docs, d)).isDirectory() && d !== '.vitepress' && d !== 'public')
-  .sort();
+  .sort((a, b) => {
+    const ia = bookOrder.indexOf(a);
+    const ib = bookOrder.indexOf(b);
+    return (ia === -1 ? 999 : ia) - (ib === -1 ? 999 : ib);
+  });
 
 let nav = '[\n  { text: "首页", link: "/" },\n';
 let sidebar = '[\n';
 for (const g of groups) {
-  const label = g.replace(/^\d+-/, '').replace(/^\d+-[\w-]+-/, '').replace(/^[^-]+-/, '');
+  const label = bookLabels[g] || g.replace(/^\d+-/, '').replace(/^\d+-[\w-]+-/, '').replace(/^[^-]+-/, '');
   const files = fs.readdirSync(path.join(docs, g)).filter(f => f.endsWith('.md')).sort();
   sidebar += `  {\n    text: ${JSON.stringify(label)},\n    collapsed: true,\n    items: [\n`;
   for (const f of files) {

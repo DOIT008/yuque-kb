@@ -26,15 +26,15 @@ export default defineConfig({
   themeConfig: {
     nav: [
   { text: "首页", link: "/" },
-  { text: "nmkii5", link: "/24013644-nmkii5/2026周报" },
-  { text: "qmvy1p", link: "/44851824-qmvy1p/“努力就会成功”" },
-  { text: "rs8s8g", link: "/44851988-rs8s8g/$attrs" },
-  { text: "qd0t47", link: "/48466893-qd0t47/typeChallengs错题本" },
-  { text: "gzq3v8", link: "/58796906-gzq3v8/JSON" },
+  { text: "工作", link: "/24013644-nmkii5/2026周报" },
+  { text: "生活", link: "/44851824-qmvy1p/“努力就会成功”" },
+  { text: "Python", link: "/58796906-gzq3v8/JSON" },
+  { text: "前端", link: "/44851988-rs8s8g/$attrs" },
+  { text: "开源", link: "/48466893-qd0t47/typeChallengs错题本" },
 ],
     sidebar: [
   {
-    text: "nmkii5",
+    text: "工作",
     collapsed: true,
     items: [
       { text: "2026周报", link: "/24013644-nmkii5/2026周报" },
@@ -64,7 +64,7 @@ export default defineConfig({
     ]
   },
   {
-    text: "qmvy1p",
+    text: "生活",
     collapsed: true,
     items: [
       { text: "“努力就会成功”", link: "/44851824-qmvy1p/“努力就会成功”" },
@@ -89,7 +89,25 @@ export default defineConfig({
     ]
   },
   {
-    text: "rs8s8g",
+    text: "Python",
+    collapsed: true,
+    items: [
+      { text: "JSON", link: "/58796906-gzq3v8/JSON" },
+      { text: "None", link: "/58796906-gzq3v8/None" },
+      { text: "内置函数", link: "/58796906-gzq3v8/内置函数" },
+      { text: "函数", link: "/58796906-gzq3v8/函数" },
+      { text: "变量", link: "/58796906-gzq3v8/变量" },
+      { text: "异常处理", link: "/58796906-gzq3v8/异常处理" },
+      { text: "循环", link: "/58796906-gzq3v8/循环" },
+      { text: "数据容器", link: "/58796906-gzq3v8/数据容器" },
+      { text: "文件", link: "/58796906-gzq3v8/文件" },
+      { text: "模块", link: "/58796906-gzq3v8/模块" },
+      { text: "环境配置", link: "/58796906-gzq3v8/环境配置" },
+      { text: "语句", link: "/58796906-gzq3v8/语句" },
+    ]
+  },
+  {
+    text: "前端",
     collapsed: true,
     items: [
       { text: "$attrs", link: "/44851988-rs8s8g/$attrs" },
@@ -304,29 +322,11 @@ export default defineConfig({
     ]
   },
   {
-    text: "qd0t47",
+    text: "开源",
     collapsed: true,
     items: [
       { text: "typeChallengs错题本", link: "/48466893-qd0t47/typeChallengs错题本" },
       { text: "第一篇—项目初始化", link: "/48466893-qd0t47/第一篇—项目初始化" },
-    ]
-  },
-  {
-    text: "gzq3v8",
-    collapsed: true,
-    items: [
-      { text: "JSON", link: "/58796906-gzq3v8/JSON" },
-      { text: "None", link: "/58796906-gzq3v8/None" },
-      { text: "内置函数", link: "/58796906-gzq3v8/内置函数" },
-      { text: "函数", link: "/58796906-gzq3v8/函数" },
-      { text: "变量", link: "/58796906-gzq3v8/变量" },
-      { text: "异常处理", link: "/58796906-gzq3v8/异常处理" },
-      { text: "循环", link: "/58796906-gzq3v8/循环" },
-      { text: "数据容器", link: "/58796906-gzq3v8/数据容器" },
-      { text: "文件", link: "/58796906-gzq3v8/文件" },
-      { text: "模块", link: "/58796906-gzq3v8/模块" },
-      { text: "环境配置", link: "/58796906-gzq3v8/环境配置" },
-      { text: "语句", link: "/58796906-gzq3v8/语句" },
     ]
   },
 ],
