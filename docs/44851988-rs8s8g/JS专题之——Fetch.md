@@ -8,7 +8,9 @@ updated: "2021-01-17T05:03:41.000Z"
 
 > 来源：语雀「前端」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/rs8s8g/or75ez)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（17 个小节）</summary>
+
 - 基本用法
 - 1\. 发送请求
 - 代码示例
@@ -19,7 +21,8 @@ updated: "2021-01-17T05:03:41.000Z"
 - 1\. 创建
 - 增删改
 - Request对象
-:::
+
+</details>
 
 ## 基本用法
 

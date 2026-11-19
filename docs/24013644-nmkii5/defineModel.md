@@ -8,7 +8,9 @@ updated: "2026-03-06T08:21:41.000Z"
 
 > 来源：语雀「工作」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/nmkii5/vs3pzfekakpfcpnm)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（16 个小节）</summary>
+
 - 1\. 为什么需要 defineModel
 - 1.1. 在 Vue 3.4 之前（旧写法）：
 - 代码示例
@@ -19,7 +21,8 @@ updated: "2026-03-06T08:21:41.000Z"
 - 2.2. 默认值 与必填项
 - 2.3. 命名 `v-model`（多个双向绑定）
 - 2.4. 内置修饰符（Modifiers）
-:::
+
+</details>
 
 defineModel 是 Vue 3.4+ 版本引入的一个**编译器宏（Compiler Macro）**，旨在简化组件间 **双向绑定（v-model）** 的实现。
 

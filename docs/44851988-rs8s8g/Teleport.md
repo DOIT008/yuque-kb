@@ -8,12 +8,15 @@ updated: "2021-06-06T09:22:47.000Z"
 
 > 来源：语雀「前端」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/rs8s8g/rxicbn)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（4 个小节）</summary>
+
 - 举个例子
 - 代码示例
 - 同一个（挂载）目标上使用多个teleport元素
 - ​
-:::
+
+</details>
 
 这是个神奇的组件(俗称"传送门")，被它包裹的元素或组件可以通**过属性**`**to**`**任意指定渲染的位置**，`to`的值是一个元素选择器，另外还有一个属性`disabled`表示是否启用这种"传送"的功能。
 

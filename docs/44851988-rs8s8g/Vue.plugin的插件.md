@@ -8,7 +8,9 @@ updated: "2020-06-13T15:12:46.000Z"
 
 > 来源：语雀「前端」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/rs8s8g/kqncr6)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（7 个小节）</summary>
+
 - Vue插件
 - 代码示例
 - 一、[开发插件](https://cn.vuejs.org/v2/guide/plugins.html#%E5%BC%80%E5%8F%91%E6%8F%92%E4%BB%B6)
@@ -16,7 +18,8 @@ updated: "2020-06-13T15:12:46.000Z"
 - 三、原理
 - 3.1、 和Vue.mixin的差别
 - 四、参考文章
-:::
+
+</details>
 
 ## Vue插件
 

@@ -111,6 +111,28 @@ samp,
 .vp-doc img {
   border-radius: 10px;
   box-shadow: 0 8px 28px rgba(53, 73, 94, 0.12);
+  cursor: zoom-in;
+}
+
+.image-zoom-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 5vh 5vw;
+  background: rgba(20, 28, 36, 0.82);
+  cursor: zoom-out;
+}
+.image-zoom-overlay.is-open {
+  display: flex;
+}
+.image-zoom-overlay img {
+  max-width: 100%;
+  max-height: 90vh;
+  border-radius: 8px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
 }
 
 /* ---------- 表格：不把中文挤成竖排，超宽时横向滚动 ---------- */
@@ -141,6 +163,149 @@ samp,
 .vp-doc table td {
   white-space: nowrap;
   vertical-align: top;
+}
+
+/* ---------- 面包屑与阅读进度 ---------- */
+.reading-progress {
+  position: sticky;
+  top: var(--vp-nav-height);
+  z-index: 20;
+  height: 3px;
+  margin-bottom: 14px;
+  background: transparent;
+}
+.reading-progress span {
+  display: block;
+  height: 100%;
+  background: linear-gradient(90deg, var(--vp-c-brand-1), var(--vp-c-brand-3));
+  transition: width 0.12s linear;
+}
+.breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 12px;
+  font-size: 13px;
+  color: var(--vp-c-text-3);
+}
+.breadcrumb a {
+  color: var(--vp-c-text-2);
+  text-decoration: none;
+}
+.breadcrumb a:hover {
+  color: var(--vp-c-brand-1);
+}
+.breadcrumb-sep {
+  color: var(--vp-c-divider);
+}
+.breadcrumb-current {
+  color: var(--vp-c-text-3);
+}
+
+/* ---------- 本页结构可折叠 ---------- */
+.toc-details {
+  margin: 16px 0 24px;
+  padding: 12px 16px;
+  border: 1px solid var(--vp-c-brand-soft);
+  border-radius: 10px;
+  background: var(--vp-c-brand-soft);
+}
+.toc-details summary {
+  cursor: pointer;
+  color: var(--vp-c-brand-2);
+  font-weight: 600;
+  font-size: 14px;
+  list-style: none;
+}
+.toc-details summary::-webkit-details-marker {
+  display: none;
+}
+.toc-details summary::before {
+  content: '▸';
+  display: inline-block;
+  margin-right: 8px;
+  transition: transform 0.2s;
+}
+.toc-details[open] summary::before {
+  transform: rotate(90deg);
+}
+.toc-details ul {
+  margin: 12px 0 0;
+  padding-left: 20px;
+}
+.toc-details li {
+  margin: 4px 0;
+  font-size: 13px;
+}
+
+/* ---------- 代码块：超长代码折叠（语言标签用 VitePress 原生） ---------- */
+.vp-doc .code-collapsible {
+  max-height: 520px;
+  overflow: hidden;
+  position: relative;
+}
+.vp-doc .code-collapsible:not(.is-collapsed) {
+  max-height: none;
+  overflow: visible;
+}
+.vp-doc .code-collapsible.is-collapsed::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 72px;
+  background: linear-gradient(transparent, var(--vp-code-bg));
+  pointer-events: none;
+}
+.vp-doc .code-toggle {
+  position: absolute;
+  left: 50%;
+  bottom: 14px;
+  transform: translateX(-50%);
+  z-index: 3;
+  padding: 5px 14px;
+  border: 1px solid var(--vp-c-brand-2);
+  border-radius: 999px;
+  background: var(--vp-c-bg);
+  color: var(--vp-c-brand-2);
+  font-size: 12px;
+  cursor: pointer;
+}
+.vp-doc .code-collapsible:not(.is-collapsed) .code-toggle {
+  bottom: 8px;
+}
+
+/* ---------- 首页统计卡与网格 ---------- */
+.home-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 14px;
+  margin: 8px auto 8px;
+  max-width: 900px;
+}
+.home-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 18px 12px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 12px;
+  background: var(--vp-c-bg-soft);
+}
+.home-stat strong {
+  font-size: 30px;
+  line-height: 1;
+  color: var(--vp-c-brand-1);
+}
+.home-stat span {
+  margin-top: 8px;
+  font-size: 13px;
+  color: var(--vp-c-text-2);
+}
+.VPHome .VPFeatures .features {
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 
 /* ---------- 章节切换过渡动画 ---------- */

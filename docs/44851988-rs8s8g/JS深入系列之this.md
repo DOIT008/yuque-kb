@@ -8,14 +8,17 @@ updated: "2020-06-11T14:34:16.000Z"
 
 > 来源：语雀「前端」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/rs8s8g/wipd0p)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（6 个小节）</summary>
+
 - 总结
 - 一些重点例子
 - 针对 上述结论2的例子
 - 代码示例
 - 针对箭头函数中的this
 - 参考网站
-:::
+
+</details>
 
 ![582aab54143d5.png](/images/562fa8bedd91a919.png)
 

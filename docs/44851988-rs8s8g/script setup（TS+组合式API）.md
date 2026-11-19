@@ -8,7 +8,9 @@ updated: "2024-02-23T07:23:37.000Z"
 
 > 来源：语雀「前端」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/rs8s8g/uqybgq)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（22 个小节）</summary>
+
 - 啥意思
 - 代码示例
 - 不一样的地方
@@ -19,7 +21,8 @@ updated: "2024-02-23T07:23:37.000Z"
 - 1\. reactive数据
 - 2\. ref数据
 - 三、指令
-:::
+
+</details>
 
 ## 啥意思
 

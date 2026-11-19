@@ -8,7 +8,9 @@ updated: "2022-12-28T08:07:50.000Z"
 
 > 来源：语雀「前端」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/rs8s8g/qt572t)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（12 个小节）</summary>
+
 - 前置知识
 - 多进程的浏览器
 - 多线程的浏览器内核
@@ -19,7 +21,8 @@ updated: "2022-12-28T08:07:50.000Z"
 - 2\. 开启网络线程到成功发送请求
 - 3\. 从服务器接收到请求到对应后台接收到请求
 - 4\. 后台和前台的http交互
-:::
+
+</details>
 
 ## 前置知识
 

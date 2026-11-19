@@ -8,7 +8,9 @@ updated: "2023-01-13T11:02:34.000Z"
 
 > 来源：语雀「前端」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/rs8s8g/sinfp3)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（11 个小节）</summary>
+
 - 说明
 - 几个函数
 - setup
@@ -19,7 +21,8 @@ updated: "2023-01-13T11:02:34.000Z"
 - computed
 - readonly
 - toRaw和markRaw
-:::
+
+</details>
 
 ## 说明
 

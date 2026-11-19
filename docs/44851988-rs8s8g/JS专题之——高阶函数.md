@@ -8,7 +8,9 @@ updated: "2022-04-20T14:49:05.000Z"
 
 > 来源：语雀「前端」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/rs8s8g/pumzol)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（7 个小节）</summary>
+
 - 一、定义
 - 二、举例
 - 2.1、函数作为参数传递
@@ -16,7 +18,8 @@ updated: "2022-04-20T14:49:05.000Z"
 - 2.2、函数作为返回值输出（就是return一个函数）
 - 2.3、 高阶函数实现AOP
 - 2.4 高阶函数的其他应用
-:::
+
+</details>
 
 ## 一、定义
 

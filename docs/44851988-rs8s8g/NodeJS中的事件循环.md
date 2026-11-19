@@ -8,7 +8,9 @@ updated: "2024-07-10T09:24:30.000Z"
 
 > 来源：语雀「前端」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/rs8s8g/xebrio)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（7 个小节）</summary>
+
 - NodeJS事件循环的6个阶段
 - 三个重要的阶段
 - timer阶段
@@ -16,7 +18,8 @@ updated: "2024-07-10T09:24:30.000Z"
 - poll 阶段
 - check 阶段
 - 与浏览器中事件循环的差别
-:::
+
+</details>
 
 Node.js采用V8作为js的解析引擎，而I/O处理方面使用了自己设计的libuv，libuv是一个基于事件驱动的跨平台抽象层（**可以认为NodeJS的事件循环就是基于libuv实现的**），封装了不同操作系统一些底层特性，对外提供统一的API，事件循环机制也是它里面的实现。
 

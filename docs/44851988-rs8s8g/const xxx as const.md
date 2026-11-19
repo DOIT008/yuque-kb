@@ -8,7 +8,9 @@ updated: "2025-09-29T07:42:34.000Z"
 
 > 来源：语雀「前端」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/rs8s8g/wsqvwaotthrbttnp)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（7 个小节）</summary>
+
 - 核心作用
 - 具体效果对比
 - 基本类型示例
@@ -16,7 +18,8 @@ updated: "2025-09-29T07:42:34.000Z"
 - 数组示例
 - 常见使用场景
 - 注意事项
-:::
+
+</details>
 
 `const xxx as const` 是 TypeScript 中的一种**类型断言语法**，主要用于**将表达式的值转换为其字面量类型，并保持其不可变性**。下面详细解释其功能和使用场景：
 

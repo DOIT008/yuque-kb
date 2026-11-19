@@ -8,7 +8,9 @@ updated: "2024-07-24T13:48:50.000Z"
 
 > 来源：语雀「前端」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/rs8s8g/ltr015)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（14 个小节）</summary>
+
 - 深拷贝、浅拷贝和赋值之间的关系
 - 浅拷贝实现方式
 - 一、Object.assign()
@@ -19,7 +21,8 @@ updated: "2024-07-24T13:48:50.000Z"
 - 深拷贝实现方式
 - 一、JSON.parse(JSON.stringify())
 - 缺陷
-:::
+
+</details>
 
 ## 深拷贝、浅拷贝和赋值之间的关系
 

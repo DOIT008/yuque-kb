@@ -8,12 +8,15 @@ updated: "2021-06-17T13:56:35.000Z"
 
 > 来源：语雀「前端」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/rs8s8g/kvbvya)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（4 个小节）</summary>
+
 - 先举个栗子吧
 - 代码示例
 - 再举个栗子👧
 - 参考文章
-:::
+
+</details>
 
 每当我们希望组件等待数据获取时（通常在异步API调用中），我们都可以使用Vue3 Composition API制作异步组件。
 

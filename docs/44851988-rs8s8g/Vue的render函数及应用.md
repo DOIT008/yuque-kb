@@ -8,13 +8,16 @@ updated: "2020-07-16T02:32:51.000Z"
 
 > 来源：语雀「前端」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/rs8s8g/wh647b)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（5 个小节）</summary>
+
 - 一、作用
 - 二、怎么使用
 - 代码示例
 - 三、原理
 - 四、应用--函数式组件
-:::
+
+</details>
 
 ### 一、作用
 

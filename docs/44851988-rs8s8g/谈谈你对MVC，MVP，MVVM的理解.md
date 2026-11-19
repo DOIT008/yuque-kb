@@ -8,11 +8,14 @@ updated: "2024-07-10T13:35:56.000Z"
 
 > 来源：语雀「前端」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/rs8s8g/iut5yk)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（3 个小节）</summary>
+
 - MVC
 - MVP
 - MVVM
-:::
+
+</details>
 
 其实他们的出现代表着框架模式的不同阶段，**目标都是解决Model层和View层的耦合问题。**
 

@@ -8,7 +8,9 @@ updated: "2024-10-15T00:53:31.000Z"
 
 > 来源：语雀「前端」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/rs8s8g/favafa)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（15 个小节）</summary>
+
 - Vite是什么
 - 特点
 - 原理
@@ -19,7 +21,8 @@ updated: "2024-10-15T00:53:31.000Z"
 - TS
 - JSON文件
 - sass
-:::
+
+</details>
 
 ## Vite是什么
 

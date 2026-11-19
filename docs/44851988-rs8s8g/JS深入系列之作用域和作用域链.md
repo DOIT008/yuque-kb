@@ -8,7 +8,9 @@ updated: "2024-07-31T14:26:53.000Z"
 
 > 来源：语雀「前端」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/rs8s8g/izuhd6)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（7 个小节）</summary>
+
 - 作用域与动态作用域
 - 代码示例
 - 作用域链
@@ -16,7 +18,8 @@ updated: "2024-07-31T14:26:53.000Z"
 - 函数激活（开始执行前）
 - 块作用域
 - 参考文章
-:::
+
+</details>
 
 ![timg (1).png](/images/2433769b6e499477.png)
 

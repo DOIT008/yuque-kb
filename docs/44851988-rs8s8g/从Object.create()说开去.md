@@ -8,13 +8,16 @@ updated: "2020-10-25T02:55:07.000Z"
 
 > 来源：语雀「前端」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/rs8s8g/ru4quw)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（5 个小节）</summary>
+
 - 定义
 - 代码示例
 - Object.create()和{...}的区别
 - Object.create(null)的使用场景
 - 参考文章
-:::
+
+</details>
 
 ## 定义
 

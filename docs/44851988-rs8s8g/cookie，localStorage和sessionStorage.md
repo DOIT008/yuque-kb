@@ -8,13 +8,16 @@ updated: "2024-06-28T12:38:35.000Z"
 
 > 来源：语雀「前端」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/rs8s8g/tt997u)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（5 个小节）</summary>
+
 - 
 - 基本概念
 - 三者区别
 - 应用场景
 - 参考文章：
-:::
+
+</details>
 
 ## 
 

@@ -8,7 +8,9 @@ updated: "2025-10-11T09:49:35.000Z"
 
 > 来源：语雀「工作」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/nmkii5/pw51g2i0msg2ymt8)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（9 个小节）</summary>
+
 - Yak Shaving
 - 我开始做开源的故事
 - Shave the Good Yak
@@ -18,7 +20,8 @@ updated: "2025-10-11T09:49:35.000Z"
 - 完善项目
 - 发现更多问题
 - Wrapping Up
-:::
+
+</details>
 
 > [English Version](https://antfu.me/posts/about-yak-shaving)
 > 

@@ -8,7 +8,9 @@ updated: "2025-09-04T09:40:40.000Z"
 
 > 来源：语雀「前端」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/rs8s8g/gmhrtp69ockmwt47)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（9 个小节）</summary>
+
 - generic="T"
 - 泛型组件的基本概念
 - 泛型组件的作用
@@ -18,7 +20,8 @@ updated: "2025-09-04T09:40:40.000Z"
 - 泛型约束
 - 完整代码
 - 总结
-:::
+
+</details>
 
 ## generic="T"
 

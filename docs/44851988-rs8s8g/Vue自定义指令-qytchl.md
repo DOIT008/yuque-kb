@@ -8,13 +8,16 @@ updated: "2020-06-13T15:13:11.000Z"
 
 > 来源：语雀「前端」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/rs8s8g/qytchl)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（5 个小节）</summary>
+
 - Vue 自定义指令
 - 一、注册
 - 代码示例
 - 二、使用
 - 三、钩子函数
-:::
+
+</details>
 
 ## Vue 自定义指令
 

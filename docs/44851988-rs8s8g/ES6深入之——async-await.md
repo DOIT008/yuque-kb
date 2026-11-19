@@ -8,14 +8,17 @@ updated: "2020-09-26T02:20:46.000Z"
 
 > 来源：语雀「前端」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/rs8s8g/ut1474)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（6 个小节）</summary>
+
 - async/await
 - 一、语法
 - 代码示例
 - await语法
 - 二、Async函数的错误处理
 - 三、async/await使用建议
-:::
+
+</details>
 
 ## async/await
 

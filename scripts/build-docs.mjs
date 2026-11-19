@@ -185,14 +185,30 @@ function analyze(md) {
   return { chars, codeBlocks, images, headings, flags };
 }
 
+function mdText(s) {
+  return String(s || '')
+    .replace(/\\/g, '')
+    .replace(/[\[\]|<>]/g, c => ({ '[': '［', ']': '］', '|': '｜', '<': '‹', '>': '›' }[c]));
+}
+
+function mdLink(file) {
+  return '/' + String(file).replace(/\.md$/, '')
+    .replace(/ /g, '%20')
+    .replace(/\(/g, '%28')
+    .replace(/\)/g, '%29');
+}
+
+function shortDate(s) {
+  const m = String(s || '').match(/^(\d{4}-\d{2}-\d{2})/);
+  return m ? m[1] : '';
+}
+
 function writeHome(report) {
   const counts = new Map();
   const firstLinks = new Map();
   for (const item of report) {
     counts.set(item.book, (counts.get(item.book) || 0) + 1);
-    if (!firstLinks.has(item.book)) {
-      firstLinks.set(item.book, '/' + item.file.replace(/\.md$/, ''));
-    }
+    if (!firstLinks.has(item.book)) firstLinks.set(item.book, mdLink(item.file));
   }
 
   const descriptions = {
@@ -211,6 +227,44 @@ function writeHome(report) {
       `    link: ${JSON.stringify(firstLinks.get(book.name) || '/')}`
     ].join('\n');
   }).join('\n');
+
+  const codeDocs = report.filter(r => r.codeBlocks > 0).length;
+  const imageDocs = report.filter(r => r.images > 0).length;
+
+  const recent = report
+    .filter(r => r.updated)
+    .slice()
+    .sort((a, b) => String(b.updated).localeCompare(String(a.updated)))
+    .slice(0, 10);
+
+  const recentFiles = new Set(recent.map(r => r.file));
+  const popular = report
+    .filter(r => !recentFiles.has(r.file) && r.chars >= 500)
+    .map(r => ({
+      ...r,
+      score: r.chars / 1000 + r.codeBlocks * 2 + r.images + r.headings.length * 0.5
+    }))
+    .sort((a, b) => b.score - a.score)
+    .slice(0, 10);
+
+  const statCards = [
+    `<div class="home-stat"><strong>${books.length}</strong><span>个知识库</span></div>`,
+    `<div class="home-stat"><strong>${report.length}</strong><span>篇文档</span></div>`,
+    `<div class="home-stat"><strong>${codeDocs}</strong><span>篇含代码</span></div>`,
+    `<div class="home-stat"><strong>${imageDocs}</strong><span>篇含图片</span></div>`
+  ].join('\n');
+
+  const recentList = recent.map(r => {
+    const date = shortDate(r.updated);
+    return `- [${mdText(r.title)}](${mdLink(r.file)})${date ? ` · \`${date}\`` : ''}`;
+  }).join('\n') || '- 暂无日期信息';
+
+  const popularList = popular.map(r => {
+    const parts = [r.book, `${Math.round(r.chars / 1000 * 10) / 10}k 字`];
+    if (r.codeBlocks) parts.push(`${r.codeBlocks} 段代码`);
+    if (r.images) parts.push(`${r.images} 张图`);
+    return `- [${mdText(r.title)}](${mdLink(r.file)}) — ${mdText(parts.join(' · '))}`;
+  }).join('\n') || '- 暂无数据';
 
   const home = [
     '---',
@@ -231,6 +285,22 @@ function writeHome(report) {
     'features:',
     features,
     '---',
+    '',
+    '<div class="home-stats">',
+    statCards,
+    '</div>',
+    '',
+    '## 最近更新',
+    '',
+    '按语雀最后编辑时间排序，看看最近沉淀了什么。',
+    '',
+    recentList,
+    '',
+    '## 热门文档',
+    '',
+    '按内容完整度（篇幅、代码、图片、结构）综合排序，适合优先阅读。',
+    '',
+    popularList,
     ''
   ].join('\n');
 
@@ -260,7 +330,7 @@ for (const book of books) {
     if (rawInfo.flags.includes('needs_structure')) info.flags.push('structure_optimized');
 
     const headingList = info.headings.length >= 3 && info.chars > 1500
-      ? `\n::: info 本页结构\n${info.headings.slice(0, 10).map(h => `- ${h}`).join('\n')}\n:::\n`
+      ? `\n<details class="toc-details">\n<summary>本页结构（${info.headings.length} 个小节）</summary>\n\n${info.headings.slice(0, 10).map(h => `- ${h}`).join('\n')}\n\n</details>\n`
       : '';
 
     const front = [
@@ -283,7 +353,13 @@ for (const book of books) {
     titleCount.set(safeName, seen + 1);
     if (seen > 0) safeName = `${safeName}-${doc.slug}`;
     fs.writeFileSync(path.join(target, `${safeName}.md`), finalMd, 'utf8');
-    report.push({ book: book.name, title: doc.title, file: `${book.id}-${book.slug}/${safeName}.md`, ...info });
+    report.push({
+      book: book.name,
+      title: doc.title,
+      file: `${book.id}-${book.slug}/${safeName}.md`,
+      updated: doc.updated_at || '',
+      ...info
+    });
   }
 }
 

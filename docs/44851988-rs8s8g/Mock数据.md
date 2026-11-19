@@ -8,7 +8,9 @@ updated: "2023-03-02T06:26:24.000Z"
 
 > 来源：语雀「前端」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/rs8s8g/pl6z2x)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（12 个小节）</summary>
+
 - 背景
 - 说明
 - 安装
@@ -19,7 +21,8 @@ updated: "2023-03-02T06:26:24.000Z"
 - 配置package.json
 - 其他配置
 - 请求模板
-:::
+
+</details>
 
 ## 背景
 

@@ -8,7 +8,9 @@ updated: "2024-03-13T09:42:11.000Z"
 
 > 来源：语雀「开源」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/qd0t47/rivxlduuhptih7sg)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（14 个小节）</summary>
+
 - Easy
 - 元组转化为对象
 - 代码示例
@@ -19,7 +21,8 @@ updated: "2024-03-13T09:42:11.000Z"
 - 获取函数返回类型
 - 实现Omit
 - 对象部分属性已读
-:::
+
+</details>
 
 ## Easy
 

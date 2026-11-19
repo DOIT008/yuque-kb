@@ -8,7 +8,9 @@ updated: "2023-03-06T09:27:52.000Z"
 
 > 来源：语雀「前端」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/rs8s8g/pgiydw)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（16 个小节）</summary>
+
 - PROMISE
 - 基础用法
 - 代码示例
@@ -19,7 +21,8 @@ updated: "2023-03-06T09:27:52.000Z"
 - Promise自带api
 - 四、p=Promise.all(\[p1,p2,p3…\])
 - 五、p=Promise.race(\[p1,p2,p3…\])
-:::
+
+</details>
 
 ## PROMISE
 

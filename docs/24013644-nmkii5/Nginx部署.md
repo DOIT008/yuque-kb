@@ -8,7 +8,9 @@ updated: "2025-11-17T02:01:04.000Z"
 
 > 来源：语雀「工作」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/nmkii5/wphgh1uof16aw50t)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（8 个小节）</summary>
+
 - 一、上传代码到服务器
 - 二、安装并配置Nginx
 - 2.1、安装Nginx
@@ -17,7 +19,8 @@ updated: "2025-11-17T02:01:04.000Z"
 - 三、在同一个域名（同一个端口）下映射不同的项目
 - 一 、 重启
 - 参考
-:::
+
+</details>
 
 Nginx是一款自由的、开源的、高性能的HTTP服务器和**反向代理**服务器。同时也是一个IMAP、POP3、SMTP代理服务器。Nginx可以作为一个HTTP服务器进行网站的发布处理，另外Nginx可以作为反向代理进行**负载均衡**的实现。
 

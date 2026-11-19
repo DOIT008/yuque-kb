@@ -8,7 +8,9 @@ updated: "2025-06-24T08:21:11.000Z"
 
 > 来源：语雀「工作」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/nmkii5/tms6f6a0v56ww43r)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（9 个小节）</summary>
+
 - Husky
 - 代码示例
 - Lint-staged
@@ -18,7 +20,8 @@ updated: "2025-06-24T08:21:11.000Z"
 - Commitizen & cz-git
 - Commitizen 安装
 - cz-git 安装
-:::
+
+</details>
 
 ## Husky
 

@@ -8,12 +8,15 @@ updated: "2024-04-08T01:34:56.000Z"
 
 > 来源：语雀「前端」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/rs8s8g/pag4le)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（4 个小节）</summary>
+
 - 一、安装Element3.x
 - 代码示例
 - 二、图标
 - 三、修改组件内部样式
-:::
+
+</details>
 
 这里主要总结一下`ElementUI3.x`和`ElementUI2.x`不一样的地方，下面概述的都是`ElementUI3.x`的用法.
 

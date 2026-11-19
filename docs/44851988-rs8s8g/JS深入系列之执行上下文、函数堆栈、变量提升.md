@@ -8,7 +8,9 @@ updated: "2020-06-09T14:53:26.000Z"
 
 > 来源：语雀「前端」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/rs8s8g/ok3hlr)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（14 个小节）</summary>
+
 - 
 - 什么是执行上下文（EC）
 - 执行上下文的类型
@@ -19,7 +21,8 @@ updated: "2020-06-09T14:53:26.000Z"
 - 2\. 执行阶段
 - 解释器执行代码的伪逻辑
 - VO --- 对应上述第二个阶段
-:::
+
+</details>
 
 ## 
 

@@ -8,14 +8,17 @@ updated: "2025-09-29T09:40:32.000Z"
 
 > 来源：语雀「前端」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/rs8s8g/qr83m0gz5z9hy1ai)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（6 个小节）</summary>
+
 - 1\. PropType
 - 代码示例
 - 2\. MaybeRef / MaybeRefOrGetter
 - 3\. ExtractPropTypes
 - 4\. CSSProperties
 - 
-:::
+
+</details>
 
 ## 1\. PropType
 

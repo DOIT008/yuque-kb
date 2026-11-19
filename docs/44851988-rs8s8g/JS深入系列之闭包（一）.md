@@ -8,7 +8,9 @@ updated: "2022-12-27T03:14:46.000Z"
 
 > 来源：语雀「前端」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/rs8s8g/mkoc8c)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（9 个小节）</summary>
+
 - 
 - 什么是闭包
 - 代码示例
@@ -18,7 +20,8 @@ updated: "2022-12-27T03:14:46.000Z"
 - 补充理解
 - 总之
 - 参考文章
-:::
+
+</details>
 
 ## 
 

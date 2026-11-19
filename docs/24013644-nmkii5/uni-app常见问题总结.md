@@ -8,7 +8,9 @@ updated: "2024-10-20T08:57:23.000Z"
 
 > 来源：语雀「工作」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/nmkii5/leocac809kixinev)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（13 个小节）</summary>
+
 - 一、uni-app扫普通二维码获取参数
 - 1.1、微信小程序
 - 代码示例
@@ -19,7 +21,8 @@ updated: "2024-10-20T08:57:23.000Z"
 - 三、uni-app图片上传总结
 - 四、扫码跳转小程序某个页面
 - 4.1、H5页面
-:::
+
+</details>
 
 ## 一、uni-app扫普通二维码获取参数
 

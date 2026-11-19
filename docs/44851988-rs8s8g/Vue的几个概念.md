@@ -8,7 +8,9 @@ updated: "2020-07-20T12:38:39.000Z"
 
 > 来源：语雀「前端」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/rs8s8g/gz8ake)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（8 个小节）</summary>
+
 - 一、Vue.extend
 - 二、ref
 - 代码示例
@@ -17,7 +19,8 @@ updated: "2020-07-20T12:38:39.000Z"
 - 五、slot
 - 5.1 具名插槽
 - 5.2 作用域插槽
-:::
+
+</details>
 
 ## 一、Vue.extend
 

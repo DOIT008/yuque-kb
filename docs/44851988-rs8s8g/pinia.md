@@ -8,7 +8,9 @@ updated: "2023-08-11T07:12:20.000Z"
 
 > 来源：语雀「前端」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/rs8s8g/ggcgfrognuwukpmf)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（9 个小节）</summary>
+
 - 一、pinia是啥？
 - 二、怎么使用
 - 2.1、安装
@@ -18,7 +20,8 @@ updated: "2023-08-11T07:12:20.000Z"
 - 四、持久化
 - 四、插件
 - 五、参考文章
-:::
+
+</details>
 
 ## 一、pinia是啥？
 

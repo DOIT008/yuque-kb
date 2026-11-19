@@ -8,7 +8,9 @@ updated: "2024-08-02T13:15:33.000Z"
 
 > 来源：语雀「前端」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/rs8s8g/bih8gf)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（13 个小节）</summary>
+
 - 代码示例
 - let 和 const
 - 1.不会被提升
@@ -19,7 +21,8 @@ updated: "2024-08-02T13:15:33.000Z"
 - 临时死区
 - 循环中的块级作用域
 - 使用let解决问题
-:::
+
+</details>
 
 通过 `var`  声明的变量存在**变量提升**的特性：
 

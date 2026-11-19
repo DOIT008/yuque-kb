@@ -8,7 +8,9 @@ updated: "2023-02-02T06:24:34.000Z"
 
 > 来源：语雀「前端」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/rs8s8g/ztr81a)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（24 个小节）</summary>
+
 - 基本结构
 - 代码示例
 - 数据
@@ -19,7 +21,8 @@ updated: "2023-02-02T06:24:34.000Z"
 - methods
 - Vuex
 - 目录
-:::
+
+</details>
 
 ## 基本结构
 

@@ -8,12 +8,15 @@ updated: "2025-11-10T06:39:08.000Z"
 
 > 来源：语雀「工作」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/nmkii5/oyqgvgcon4wsmgro)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（4 个小节）</summary>
+
 - 1.安装兼容插件 @vitejs/plugin-legacy
 - 代码示例
 - 2.手动修改打包完的index.html文件（不建议使用，可直接略过使用第三步）
 - 3.自动修改打包完的index.html文件（建议使用）
-:::
+
+</details>
 
 vite + vue3 打包的文件，如果使用类似于nginx或者其他的服务器打开，可以正常打开，但如果直接点击打开index.html文件，页面会白屏，打开调试工具后发现如下跨域的报错。
 

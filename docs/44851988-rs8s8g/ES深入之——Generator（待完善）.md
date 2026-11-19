@@ -8,7 +8,9 @@ updated: "2020-09-19T03:24:53.000Z"
 
 > 来源：语雀「前端」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/rs8s8g/xah1if)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（22 个小节）</summary>
+
 - 特征
 - 代码示例
 - 执行规律
@@ -19,7 +21,8 @@ updated: "2020-09-19T03:24:53.000Z"
 - API
 - Generator.prototype.throw()
 - Generator.prototype.return()
-:::
+
+</details>
 
 Generator 函数是 ES6 提供的一种异步编程解决方案，语法行为与传统函数完全不同。首先可以把它理解成，Generator 函数是一个状态机，封装了多个内部状态。
 

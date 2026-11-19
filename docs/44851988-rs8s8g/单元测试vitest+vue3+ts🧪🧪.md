@@ -8,7 +8,9 @@ updated: "2024-05-08T21:35:46.000Z"
 
 > 来源：语雀「前端」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/rs8s8g/ucc14m5yihbn3frs)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（14 个小节）</summary>
+
 - 一、什么是vitest？
 - 二、启动
 - 三、配置
@@ -19,7 +21,8 @@ updated: "2024-05-08T21:35:46.000Z"
 - 四、vitest语法规则
 - 1、vitest 支持三种方式写测试代码
 - 2、测试代码结构
-:::
+
+</details>
 
 ## 一、什么是vitest？
 

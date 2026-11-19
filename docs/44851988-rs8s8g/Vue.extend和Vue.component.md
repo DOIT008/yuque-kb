@@ -8,12 +8,15 @@ updated: "2023-07-11T07:20:23.000Z"
 
 > 来源：语雀「前端」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/rs8s8g/mn3irz)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（4 个小节）</summary>
+
 - 一、Vue.component
 - 代码示例
 - 二、Vue.extend
 - 参考文章
-:::
+
+</details>
 
 ## 一、Vue.component
 

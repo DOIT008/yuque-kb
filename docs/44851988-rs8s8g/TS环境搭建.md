@@ -8,7 +8,9 @@ updated: "2024-03-10T13:26:59.000Z"
 
 > 来源：语雀「前端」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/rs8s8g/oygsuh)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（11 个小节）</summary>
+
 - 一、安装环境
 - 1.1 安装ts
 - 1.2 tsconfig.json
@@ -19,7 +21,8 @@ updated: "2024-03-10T13:26:59.000Z"
 - 3.1、原生运行
 - 3.2、使用nodemon
 - 四、webpack打包TS
-:::
+
+</details>
 
 ## 一、安装环境
 

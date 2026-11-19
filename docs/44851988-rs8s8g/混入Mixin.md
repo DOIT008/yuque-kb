@@ -8,12 +8,15 @@ updated: "2023-08-16T08:34:43.000Z"
 
 > 来源：语雀「前端」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/rs8s8g/fylqks)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（4 个小节）</summary>
+
 - 全局注册Mixin
 - 代码示例
 - CompositionAPI和mixins
 - 参考文章
-:::
+
+</details>
 
 ## 全局注册Mixin
 

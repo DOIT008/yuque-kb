@@ -8,11 +8,14 @@ updated: "2020-07-19T01:30:36.000Z"
 
 > 来源：语雀「前端」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/rs8s8g/qg8b8r)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（3 个小节）</summary>
+
 - 代码示例
 - 思路总结
 - 参考文章
-:::
+
+</details>
 
 ![timg.png](/images/d4fabc5a6f17ac10.png)
 

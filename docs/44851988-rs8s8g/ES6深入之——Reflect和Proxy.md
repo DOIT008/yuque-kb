@@ -8,7 +8,9 @@ updated: "2023-05-16T06:03:29.000Z"
 
 > 来源：语雀「前端」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/rs8s8g/ouwptngyatax9u3s)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（21 个小节）</summary>
+
 - 一、Reflect
 - 一、什么是Reflect
 - 二、方法
@@ -19,7 +21,8 @@ updated: "2023-05-16T06:03:29.000Z"
 - 4、deleteProperty()
 - 5、get()
 - 6、getOwnPropertyDescriptor()【不常用】
-:::
+
+</details>
 
 ## 一、Reflect
 

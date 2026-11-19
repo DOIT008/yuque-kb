@@ -8,7 +8,9 @@ updated: "2025-08-21T07:05:55.000Z"
 
 > 来源：语雀「工作」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/nmkii5/zy00oi2lo1vb63nk)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（16 个小节）</summary>
+
 - 一、Windows 11环境下安装wrk
 - 1\. 通过WSL 2安装（推荐方法）
 - 代码示例
@@ -19,7 +21,8 @@ updated: "2025-08-21T07:05:55.000Z"
 - 一、WRK2压测报告字段解析
 - 1\. 压测请求配置（命令行参数）
 - 2\. 线程校准（Thread Calibration）
-:::
+
+</details>
 
 wrk2 是一个轻量支持高并发（可达到百万级，跟电脑配置有关）的一个开源压测工具，但是其只能在 linux 环境下使用，那么如何也能在 window 环境下使用呢？
 

@@ -8,12 +8,15 @@ updated: "2022-05-03T01:12:23.000Z"
 
 > 来源：语雀「前端」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/rs8s8g/civ062)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（4 个小节）</summary>
+
 - 无form元素版
 - 代码示例
 - form版
 - 其他
-:::
+
+</details>
 
 以前我们在使用`v-model`实现自定义组件的双向绑定的时候，在组件内部我们一般要使用一个`model`选项来配置我们绑定的属性以及要触发的自定义事件，现在我们不用了，不过Vue3.x要求却更加精准，下面我们就使用Vue3来创建两个实例来分别演示非form组件和form组件的`v-model`上的使用：
 

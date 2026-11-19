@@ -8,7 +8,9 @@ updated: "2021-01-12T13:58:00.000Z"
 
 > 来源：语雀「前端」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/rs8s8g/rur8rw)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（7 个小节）</summary>
+
 - Iterator的实质
 - 说通俗点
 - 例如
@@ -16,7 +18,8 @@ updated: "2021-01-12T13:58:00.000Z"
 - 遍历器对象的 return()，throw()
 - for...of
 - 参考文章
-:::
+
+</details>
 
 JavaScript 原有的表示“集合”的数据结构，主要是数组（`Array`）和对象（`Object`），ES6 又添加了`Map`和`Set`。这样就有了四种数据集合，用户还可以组合使用它们，定义自己的数据结构，比如数组的成员是`Map`，`Map`的成员是对象。这样就需要一种统一的接口机制，来处理所有不同的数据结构。
 

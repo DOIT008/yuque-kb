@@ -8,7 +8,9 @@ updated: "2023-01-16T10:44:22.000Z"
 
 > 来源：语雀「前端」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/rs8s8g/hl8lir)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（14 个小节）</summary>
+
 - 安装
 - 代码示例
 - 举个例子
@@ -19,7 +21,8 @@ updated: "2023-01-16T10:44:22.000Z"
 - actions
 - modules
 - 在组件中使用
-:::
+
+</details>
 
 其实Vue3.x中的Vuex和Vue2差不多，还是分为`state`，`getters`，`mutations`，`actions`，`module`，但是写法却有些许差别，先看官方建议的Vuex解构吧：
 

@@ -8,14 +8,17 @@ updated: "2024-12-24T02:12:10.000Z"
 
 > 来源：语雀「前端」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/rs8s8g/mf7xvl7l10pkhfer)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（6 个小节）</summary>
+
 - 一、使用f2elint
 - 代码示例
 - 错误处理
 - 路径别名和ESlint
 - 和Prettier擦出的火花
 - 二、自己配
-:::
+
+</details>
 
 ## 一、使用f2elint
 

@@ -8,7 +8,9 @@ updated: "2022-12-09T04:51:04.000Z"
 
 > 来源：语雀「前端」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/rs8s8g/nfkgbw)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（12 个小节）</summary>
+
 - 组件间的通信
 - 一、兄弟组件间通信
 - 1\. 1 使用EventBus
@@ -19,7 +21,8 @@ updated: "2022-12-09T04:51:04.000Z"
 - 2.1 子到父
 - 2.2 父到子
 - 三、边界知识
-:::
+
+</details>
 
 ## 组件间的通信
 

@@ -8,7 +8,9 @@ updated: "2020-06-14T01:55:16.000Z"
 
 > 来源：语雀「前端」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/rs8s8g/ggo8dg)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（7 个小节）</summary>
+
 - 一、指令的定义
 - 代码示例
 - 二、指令的钩子函数
@@ -16,7 +18,8 @@ updated: "2020-06-14T01:55:16.000Z"
 - 四、指令的简写
 - 简写
 - 对象字面量的形式
-:::
+
+</details>
 
 除了默认设置的核心指令( `v-model` 和`v-show`)，`Vue` 也允许注册自定义指令。在`Vue`里，代码复用的主要形式和抽象是组件。然而，有的情况下，**仍然需要对纯 DOM 元素进行底层操作，这时候就会用到自定义指令**。
 

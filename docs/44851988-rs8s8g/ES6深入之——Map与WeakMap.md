@@ -8,7 +8,9 @@ updated: "2023-03-08T08:20:48.000Z"
 
 > 来源：语雀「前端」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/rs8s8g/fr9glren3gccrgql)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（33 个小节）</summary>
+
 - 一、为什么是 Map ？
 - 1、 传统对象结构
 - 代码示例
@@ -19,7 +21,8 @@ updated: "2023-03-08T08:20:48.000Z"
 - 1、 set
 - 2、get
 - 3、has
-:::
+
+</details>
 
 ## 一、为什么是 Map ？
 

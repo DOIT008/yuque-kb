@@ -8,7 +8,9 @@ updated: "2021-01-16T08:05:09.000Z"
 
 > 来源：语雀「前端」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/rs8s8g/dgfh6z)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（10 个小节）</summary>
+
 - 五个阶段
 - 一、创建XHR对象
 - 代码示例
@@ -19,7 +21,8 @@ updated: "2021-01-16T08:05:09.000Z"
 - 六、其他
 - 一个get请求完整的例子
 - 参考文章：
-:::
+
+</details>
 
 在实际的项目中我们经常会使用ajax进行数据的请求，但总是不知道其中的原理是什么，下面就让我们实际操作一下，一步步实现一个ajax请求。
 

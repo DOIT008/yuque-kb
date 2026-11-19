@@ -8,7 +8,9 @@ updated: "2023-01-13T02:39:46.000Z"
 
 > 来源：语雀「前端」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/rs8s8g/qv1se7)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（8 个小节）</summary>
+
 - 一、什么是声明文件
 - 二、作用
 - 三、怎么声明
@@ -17,7 +19,8 @@ updated: "2023-01-13T02:39:46.000Z"
 - 代码示例
 - 4.2、项目使用TS重构时
 - 五、参考文章
-:::
+
+</details>
 
 ## 一、什么是声明文件
 

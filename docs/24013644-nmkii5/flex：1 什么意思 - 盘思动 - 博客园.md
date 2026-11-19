@@ -8,7 +8,9 @@ updated: "2026-02-05T03:10:33.000Z"
 
 > 来源：语雀「工作」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/nmkii5/qwq51girfgyt1u2l)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（7 个小节）</summary>
+
 - 解释 `flex: 1` 的含义：
 - 举个例子：
 - 示例代码：
@@ -16,7 +18,8 @@ updated: "2026-02-05T03:10:33.000Z"
 - 效果：
 - 其他用法：
 - 总结：
-:::
+
+</details>
 
 `flex: 1` 是 Flexbox 布局中的一个非常常用的属性，它用于 **让一个元素在容器中占据剩余的空间**。具体来说，`flex: 1` 是 `flex-grow`, `flex-shrink`, 和 `flex-basis` 的简写。
 

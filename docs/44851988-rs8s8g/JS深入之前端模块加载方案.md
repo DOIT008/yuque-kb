@@ -8,7 +8,9 @@ updated: "2024-08-02T14:51:02.000Z"
 
 > 来源：语雀「前端」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/rs8s8g/uab2zz)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（10 个小节）</summary>
+
 - AMD（异步模块定义）
 - require.js
 - 代码示例
@@ -19,7 +21,8 @@ updated: "2024-08-02T14:51:02.000Z"
 - ES6
 - Common.js和ES6
 - 参考文章
-:::
+
+</details>
 
 ## AMD（异步模块定义）
 

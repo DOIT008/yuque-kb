@@ -8,7 +8,9 @@ updated: "2023-08-01T07:09:40.000Z"
 
 > 来源：语雀「前端」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/rs8s8g/zba755)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（12 个小节）</summary>
+
 - 全局ts配置
 - 代码示例
 - 创建项目
@@ -19,7 +21,8 @@ updated: "2023-08-01T07:09:40.000Z"
 - 规范数据
 - 注解Props
 - 注解ref
-:::
+
+</details>
 
 由于Vue3本身就是用TS写的，所以在写Vue3的项目的时候推荐使用TS，不仅仅是因为它好用，而且还是因为这是趋势，那么如何才能让创建的项目支持TS呢，我们需要做哪些工作呢？
 

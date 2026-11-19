@@ -8,7 +8,9 @@ updated: "2023-03-08T03:48:13.000Z"
 
 > 来源：语雀「前端」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/rs8s8g/cr2gvg1wmzp35g90)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（14 个小节）</summary>
+
 - 一、什么是symbol
 - 二、语法
 - 代码示例
@@ -19,7 +21,8 @@ updated: "2023-03-08T03:48:13.000Z"
 - 1、for...in无法遍历
 - 2、类型转换
 - 使用场景
-:::
+
+</details>
 
 ## 一、什么是symbol
 

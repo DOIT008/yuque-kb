@@ -8,7 +8,9 @@ updated: "2024-08-05T02:45:42.000Z"
 
 > 来源：语雀「前端」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/rs8s8g/rf1y6e)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（13 个小节）</summary>
+
 - Git
 - 一、Git原理图（应用层）
 - 二、Git常见术语以及他们之间的关系
@@ -19,7 +21,8 @@ updated: "2024-08-05T02:45:42.000Z"
 - 3.3、分支
 - 3.4、标签tag
 - 3.5、后悔药
-:::
+
+</details>
 
 ## Git
 

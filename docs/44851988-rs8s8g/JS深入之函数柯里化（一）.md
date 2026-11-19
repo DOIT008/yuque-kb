@@ -8,7 +8,9 @@ updated: "2024-07-31T14:34:29.000Z"
 
 > 来源：语雀「前端」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/rs8s8g/pgig2w)
 
-::: info 本页结构
+<details class="toc-details">
+<summary>本页结构（10 个小节）</summary>
+
 - 定义
 - 举个例子
 - 代码示例
@@ -19,7 +21,8 @@ updated: "2024-07-31T14:34:29.000Z"
 - 执行分析
 - 一个经典的面试题
 - 参考文章
-:::
+
+</details>
 
 ## 定义
 
