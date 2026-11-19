@@ -1,0 +1,347 @@
+---
+description: "Git一、Git原理图（应用层）Workspace:工作区，执行git add *命令就把改动提交到了暂存区，执行git pull命令将远程仓库的数据拉到当前分支并合并，执行git checkout [branch-name]切换分支Stage:暂存区，执行git commit -m '说明'..."
+source: "https://www.yuque.com/alipayqxigqpgusn/rs8s8g/rf1y6e"
+updated: "2024-08-05T02:45:42.000Z"
+---
+
+# Git各种命令
+
+> 来源：语雀「前端」 · [查看原文](https://www.yuque.com/alipayqxigqpgusn/rs8s8g/rf1y6e)
+
+::: info 本页结构
+- Git
+- 一、Git原理图（应用层）
+- 二、Git常见术语以及他们之间的关系
+- 三、Git常见操作
+- 3.1 创建仓库
+- 代码示例
+- 3.2、推送
+- 3.3、分支
+- 3.4、标签tag
+- 3.5、后悔药
+:::
+
+## Git
+
+  
+
+## 一、Git原理图（应用层）
+
+  
+
+![图片](https://s1.ax1x.com/2020/04/11/GqCd6x.png)
+
+  
+
+1.  Workspace:工作区，执行`git add *`命令就把改动提交到了暂存区，执行`git pull`命令将远程仓库的数据拉到当前分支并合并，执行`git checkout [branch-name]`切换分支
+
+2.  Stage:暂存区，执行`git commit -m '说明'` 命令就把改动提交到了仓库区（当前分支）
+
+3.  本地仓库：执行`git push origin master`提交到远程仓库，执行`git clone 地址`将克隆远程仓库到本地
+
+4.  Origin:远程仓库，就是类似github，coding等网站所提供的仓库
+
+  
+
+## 二、Git常见术语以及他们之间的关系
+
+  
+
+![图片](https://s1.ax1x.com/2020/04/11/GqiUL6.jpg)
+
+  
+
+> tag其实就是为某次提交打了一个标签，相当于别名一样
+
+  
+
+## 三、Git常见操作
+
+  
+
+### 3.1 创建仓库
+
+  
+
+创建的是本地仓库
+
+  
+
+## 代码示例
+
+```bash
+# 在当前目录创建一个文件夹
+$ mkdir [project-name]
+# 在当前目录新建一个Git代码库
+$ git init
+# 新建一个目录，将其初始化为Git代码库,相当于是上面两步的综合
+$ git init [project-name]
+# 下载一个项目和它的整个代码历史（各个分支提交记录等）
+$ git clone [url]
+```
+
+  
+
+### 3.2、推送
+
+  
+
+```bash
+# 添加当前目录的所有文件到暂存区
+$ git add *
+# 提交暂存区到仓库区
+$ git commit -m [message]
+# 为远程Git更名为origin
+$ git remote add origin git@github.com:abcd/tmp.git
+# 推送此次修改，首次推送需要加上-u,之后推送就可以直接git push  origin master,origin是远程Git名字，这个可以自己定义，不过一般是用origin罢了，master是默认的分支，如果不在master分支提交需要写清楚分支名称
+$ git push [-u] origin master
+```
+
+  
+
+首次推送成功就会看到以下命令：
+
+  
+
+```bash
+# 添加指定文件到暂存区
+$ git add [file1] [file2] ...
+# 添加指定目录到暂存区，包括子目录
+$ git add [dir]
+# 添加当前目录的所有文件到暂存区
+$ git add *
+# 添加每个变化前，都会要求确认
+对于同一个文件的多处变化，可以实现分次提交
+$ git add -p
+# 删除工作区文件，并且将这次删除放入暂存区
+$ git rm [file1] [file2] ...
+# 停止追踪指定文件，但该文件会保留在工作区
+$ git rm --cached [file]
+# 改名文件，并且将这个改名放入暂存区
+$ git mv [file-original] [file-renamed]
+# 提交暂存区到仓库区
+$ git commit -m [message]
+# 提交暂存区的指定文件到仓库区
+$ git commit [file1] [file2] ... -m [message]
+# 提交工作区自上次commit之后的变化，直接到仓库区
+$ git commit -a
+# 提交时显示所有diff信息
+$ git commit -v
+# 使用一次新的commit，替代上一次提交
+如果代码没有任何新变化，则用来改写上一次commit的提交信息
+$ git commit --amend -m [message]
+# 重做上一次commit，并包括指定文件的新变化
+$ git commit --amend [file1] [file2] ...
+# 提交更改到远程仓库,或者是某个分支
+$ git push origin 分支名
+# 拉取远程更改到本地仓库默认自动合并，将远程master分支的内容合入到本地仓库
+$ git pull origin master
+```
+
+  
+
+### 3.3、分支
+
+  
+
+```bash
+# 列出所有本地分支
+$ git branch
+# 列出所有远程分支
+$ git branch -r
+# 将本地分支同步到远程分支，dbg_lichen_star是本地分支名，dbg_lichen_star是远程分支名
+$ git push origin [本地分支名]:[远程分支名]
+# 列出所有本地分支和远程分支
+$ git branch -a
+# 新建一个分支，但依然停留在当前分支
+$ git branch [branch-name]
+# 新建一个分支，并切换到该分支
+$ git checkout -b [branch-name]
+# 新建一个分支，指向指定commit,这里的commit是某次提交的SHA1码（可以取前10位）
+$ git branch [branch] [commit]
+# 新建一个分支，与指定的远程分支建立追踪关系
+$ git branch --track [branch] [remote-branch]
+# 切换到指定分支，并更新工作区 
+$ git checkout [branch-name]
+# 切换到上一个分支
+$ git checkout -
+# 建立追踪关系，在现有分支与指定的远程分支之间
+$ git branch --set-upstream [branch] [remote-branch]
+# 合并指定分支到当前分支，如果有冲突需要手动合并冲突（就是手动编辑文件保存咯），然后add,commit再提交
+$ git merge [branch-name]
+# 选择一个commit，合并进当前分支
+$ git cherry-pick [commit]
+# 删除分支
+$ git branch -d [branch-name]
+# 删除远程分支
+$ git push origin --delete [branch-name]
+# 在本地更新出最新的分支
+$ git fetch --prune
+```
+
+  
+
+### 3.4、标签tag
+
+  
+
+标签的作用主要是用来做版本回退的，关于版本回退，这也是Git的亮点之一，起到了后悔药的功能·
+
+  
+
+```bash
+# 列出所有tag
+$ git tag
+# 新建一个tag在当前commit
+$ git tag [tag名称]
+# 新建一个tag在指定commit
+$ git tag [tag名称] [commit]
+# 删除本地tag
+$ git tag -d [tag名称]
+# 删除远程tag
+$ git push origin :refs/tags/[tagName]
+# 查看tag信息
+$ git show [tag名称]
+# 提交指定tag
+$ git push origin [tag名称]
+# 提交所有tag
+$ git push origin --tags
+# 新建一个分支，指向某个tag
+$ git checkout -b [branch] [tag]
+```
+
+  
+
+### 3.5、后悔药
+
+  
+
+想一下在你写完N个文件代码后，commit到了本地仓库，突然发现整个应用崩溃了！咋整？Git给了我们吃后悔药  
+的机会：
+
+  
+
+```bash
+# 恢复暂存区的指定文件到工作区
+$ git checkout [file]
+# 恢复某个commit的指定文件到暂存区和工作区
+$ git checkout [commit] [file]
+# 恢复暂存区的所有文件到工作区
+$ git checkout .
+# 回退到上一个版本，在Git中，用HEAD表示当前版本
+$ git reset --hard HEAD^
+# 重置暂存区的指定文件，与上一次commit保持一致，但工作区不变
+$ git reset [file]
+# 重置暂存区与工作区，与上一次commit保持一致
+$ git reset --hard
+# 重置当前分支的指针为指定commit，同时重置暂存区，但工作区不变
+$ git reset [commit]
+# 重置当前分支的HEAD为指定commit，同时重置暂存区和工作区，与指定commit一致
+$ git reset --hard [commit]
+# 重置当前HEAD为指定commit，但保持暂存区和工作区不变
+$ git reset --keep [commit]
+# 新建一个commit，用来撤销指定commit
+# 后者的所有变化都将被前者抵消，并且应用到当前分支
+$ git revert [commit]
+# 暂时将未提交的变化移除，稍后再移入
+$ git stash
+$ git stash pop
+```
+
+  
+
+> 这个时候标签的作用就体现出来了，因为commit号太冗长了，记起来太麻烦有了标签我们相当于自定义了commit号
+
+  
+
+### 3.6、文件信息
+
+  
+
+```bash
+# 显示当前分支的版本历史
+$ git log
+# 显示commit历史，以及每次commit发生变更的文件
+$ git log --stat
+# 搜索提交历史，根据关键词
+$ git log -S [keyword]
+# 显示某个commit之后的所有变动，每个commit占据一行
+$ git log [tag] HEAD --pretty=format:%s
+# 显示某个commit之后的所有变动，其"提交说明"必须符合搜索条件
+$ git log [tag] HEAD --grep feature
+# 显示某个文件的版本历史，包括文件改名
+$ git log --follow [file]
+$ git whatchanged [file]
+# 显示指定文件相关的每一次diff
+$ git log -p [file]
+# 显示过去5次提交
+$ git log -5 --pretty --oneline
+# 显示所有提交过的用户，按提交次数排序
+$ git shortlog -sn
+# 显示指定文件是什么人在什么时间修改过
+$ git blame [file]
+# 显示暂存区和工作区的差异
+$ git diff
+# 显示暂存区和上一个commit的差异
+$ git diff --cached [file]
+# 显示工作区与当前分支最新commit之间的差异
+$ git diff HEAD
+# 显示两次提交之间的差异
+$ git diff [first-branch]...[second-branch]
+# 显示今天你写了多少行代码
+$ git diff --shortstat "@{0 day ago}"
+# 显示某次提交的元数据和内容变化
+$ git show [commit]
+# 显示某次提交发生变化的文件
+$ git show --name-only [commit]
+# 显示某次提交时，某个文件的内容
+$ git show [commit]:[filename]
+```
+
+  
+
+### 3.7、其他命令
+
+  
+
+```bash
+# 查看有变更的文件
+$ git status
+# 显示当前分支最近几次的提交
+$ git reflog
+#git blame清楚的记录某个文件的更改历史和更改人，简直是查看背锅人的利器，filepath是需要查看的文件路径
+$ git blame filepath
+```
+
+### 3.8、其他技巧
+
+1.  如果你从A分支拉了一个B分支，并且在B分支已经写了一部分代码，但是某一天有个小需求需要你在A分支改动代码，等你改完代码后需要把改动的这部分代码合并到B分支这时候该咋办呢？
+
+```bash
+# A分支下操作
+$ git log
+commit 542ed9acb7d54c4431eda351db53f616d826a2bd
+Author: test <test.com>
+Date:   Fri Apr 24 09:19:31 2020 +0800
+    test update
+# 根据commit时的备注，找到修改代码的commitID，复制下来
+# 如 542ed9acb7d54c4431eda351db53f616d826a2bd
+
+# B分支下操作
+# 转移commit
+$ git cherry-pick commitID
+# 如 git cherry-pick 542ed9acb7d54c4431eda351db53f616d826a2bd
+
+# 查看修改显示:对应commitid的修改合入B分支了
+$ git status -sb
+```
+
+  
+
+  
+
+> 上面的所有【commit】其实就是某次提交生成的SHA1码，可以通过git log命令查看所有的提交
+
+  
+
+本文参考文章：[全面理解Git](https://juejin.im/post/582bd0b4da2f600063d4f89e)
