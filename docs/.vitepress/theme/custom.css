@@ -277,26 +277,47 @@ samp,
   bottom: 8px;
 }
 
-/* ---------- 首页统计卡与网格 ---------- */
+/* ---------- 首页 hero 插图 ---------- */
+@media (min-width: 960px) {
+  .VPHero .image-container {
+    max-width: 440px;
+    margin-right: 0;
+    transform: translate(0, -24px);
+  }
+}
+.VPHero .image-bg {
+  display: none;
+}
+.VPHero .image-src {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ---------- 首页统计条 ---------- */
 .home-stats {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 14px;
-  margin: 8px auto 8px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0;
   max-width: 900px;
+  margin: 40px auto 8px;
+  padding: 22px 0;
+  border: 1px solid var(--vp-c-brand-soft);
+  border-radius: 16px;
+  background: linear-gradient(120deg, rgba(66, 184, 131, 0.10), rgba(66, 184, 131, 0.02));
 }
 .home-stat {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 18px 12px;
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 12px;
-  background: var(--vp-c-bg-soft);
+  border-right: 1px solid var(--vp-c-divider);
+}
+.home-stat:last-child {
+  border-right: 0;
 }
 .home-stat strong {
-  font-size: 30px;
+  font-size: 34px;
   line-height: 1;
+  letter-spacing: -0.02em;
   color: var(--vp-c-brand-1);
 }
 .home-stat span {
@@ -304,8 +325,105 @@ samp,
   font-size: 13px;
   color: var(--vp-c-text-2);
 }
-.VPHome .VPFeatures .features {
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+
+/* ---------- 首页分类卡片：强制 3 列（3+2 布局） ---------- */
+.VPHome .VPFeatures .items .item.grid-4 {
+  width: 33.3333%;
+}
+@media (max-width: 767px) {
+  .VPHome .VPFeatures .items .item.grid-4 {
+    width: 50%;
+  }
+}
+@media (max-width: 479px) {
+  .VPHome .VPFeatures .items .item.grid-4 {
+    width: 100%;
+  }
+}
+
+/* ---------- 首页最近更新 / 热门文档：两列卡片 ---------- */
+.home-lists {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 1100px;
+  margin: 44px auto 80px;
+}
+@media (max-width: 767px) {
+  .home-lists {
+    grid-template-columns: 1fr;
+  }
+}
+.home-list {
+  padding: 22px 24px 18px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 16px;
+  background: var(--vp-c-bg-soft);
+}
+.home-list h2 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 18px;
+}
+.home-list-desc {
+  margin: 6px 0 14px;
+  font-size: 13px;
+  color: var(--vp-c-text-3);
+}
+.home-link-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  counter-reset: home-list;
+}
+.home-link-list li {
+  counter-increment: home-list;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 8px;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: background-color 0.2s;
+}
+.home-link-list li::before {
+  content: counter(home-list);
+  flex: 0 0 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 6px;
+  background: var(--vp-c-brand-soft);
+  color: var(--vp-c-brand-2);
+  font-family: var(--vp-font-family-mono);
+  font-size: 11px;
+}
+.home-link-list li:hover {
+  background-color: var(--vp-c-brand-soft);
+}
+.home-link-list li a {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--vp-c-text-1);
+  text-decoration: none;
+}
+.home-link-list li a:hover {
+  color: var(--vp-c-brand-1);
+}
+.home-link-list time {
+  flex: 0 0 auto;
+  font-size: 12px;
+  color: var(--vp-c-text-3);
+  font-family: var(--vp-font-family-mono);
+}
+.home-link-list--meta li span {
+  flex: 0 0 auto;
+  font-size: 12px;
+  color: var(--vp-c-text-3);
 }
 
 /* ---------- 章节切换过渡动画 ---------- */

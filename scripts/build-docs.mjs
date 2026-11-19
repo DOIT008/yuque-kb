@@ -254,17 +254,17 @@ function writeHome(report) {
     `<div class="home-stat"><strong>${imageDocs}</strong><span>篇含图片</span></div>`
   ].join('\n');
 
-  const recentList = recent.map(r => {
+  const recentList = recent.map((r, i) => {
     const date = shortDate(r.updated);
-    return `- [${mdText(r.title)}](${mdLink(r.file)})${date ? ` · \`${date}\`` : ''}`;
-  }).join('\n') || '- 暂无日期信息';
+    return `<li><a href="${mdLink(r.file)}">${mdText(r.title)}</a>${date ? `<time>${date}</time>` : ''}</li>`;
+  }).join('\n') || '<li>暂无日期信息</li>';
 
   const popularList = popular.map(r => {
     const parts = [r.book, `${Math.round(r.chars / 1000 * 10) / 10}k 字`];
     if (r.codeBlocks) parts.push(`${r.codeBlocks} 段代码`);
     if (r.images) parts.push(`${r.images} 张图`);
-    return `- [${mdText(r.title)}](${mdLink(r.file)}) — ${mdText(parts.join(' · '))}`;
-  }).join('\n') || '- 暂无数据';
+    return `<li><a href="${mdLink(r.file)}">${mdText(r.title)}</a><span>${mdText(parts.join(' · '))}</span></li>`;
+  }).join('\n') || '<li>暂无数据</li>';
 
   const home = [
     '---',
@@ -274,6 +274,7 @@ function writeHome(report) {
     '  name: "DOIT 的知识库"',
     '  text: "从语雀迁移而来"',
     '  tagline: "更清晰的排版，更聚焦的阅读，更舒服的代码展示"',
+    `  image: /hero-knowledge.svg`,
     '  actions:',
     '    - theme: brand',
     '      text: "开始阅读"',
@@ -290,17 +291,22 @@ function writeHome(report) {
     statCards,
     '</div>',
     '',
-    '## 最近更新',
-    '',
-    '按语雀最后编辑时间排序，看看最近沉淀了什么。',
-    '',
+    '<div class="home-lists">',
+    '<section class="home-list">',
+    '<h2>最近更新</h2>',
+    '<p class="home-list-desc">按语雀最后编辑时间排序，看看最近沉淀了什么。</p>',
+    '<ol class="home-link-list">',
     recentList,
-    '',
-    '## 热门文档',
-    '',
-    '按内容完整度（篇幅、代码、图片、结构）综合排序，适合优先阅读。',
-    '',
+    '</ol>',
+    '</section>',
+    '<section class="home-list">',
+    '<h2>热门文档</h2>',
+    '<p class="home-list-desc">按内容完整度综合排序，适合优先阅读。</p>',
+    '<ol class="home-link-list home-link-list--meta">',
     popularList,
+    '</ol>',
+    '</section>',
+    '</div>',
     ''
   ].join('\n');
 

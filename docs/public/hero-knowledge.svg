@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="360" viewBox="0 0 440 360" fill="none">
+  <defs>
+    <linearGradient id="g1" x1="60" y1="40" x2="380" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#42d392"/>
+      <stop offset="1" stop-color="#35495e"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f3f8f5"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#35495e" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+
+  <circle cx="222" cy="180" r="150" fill="url(#g1)" opacity="0.10"/>
+  <circle cx="222" cy="180" r="112" fill="url(#g1)" opacity="0.07"/>
+
+  <!-- back card -->
+  <g filter="url(#shadow)" transform="rotate(-8 150 130)">
+    <rect x="66" y="70" width="196" height="150" rx="14" fill="url(#card)" stroke="#42b883" stroke-opacity="0.25"/>
+    <rect x="86" y="94" width="92" height="10" rx="5" fill="#42b883" opacity="0.55"/>
+    <rect x="86" y="116" width="150" height="7" rx="3.5" fill="#c8d4cf"/>
+    <rect x="86" y="134" width="128" height="7" rx="3.5" fill="#c8d4cf"/>
+    <rect x="86" y="152" width="142" height="7" rx="3.5" fill="#c8d4cf"/>
+  </g>
+
+  <!-- front card -->
+  <g filter="url(#shadow)" transform="rotate(6 260 210)">
+    <rect x="168" y="132" width="208" height="164" rx="16" fill="url(#card)" stroke="#42b883" stroke-opacity="0.35"/>
+    <circle cx="196" cy="162" r="9" fill="#42b883"/>
+    <rect x="214" y="156" width="104" height="11" rx="5.5" fill="#35495e" opacity="0.8"/>
+    <rect x="190" y="192" width="164" height="8" rx="4" fill="#d6e2dc"/>
+    <rect x="190" y="212" width="132" height="8" rx="4" fill="#d6e2dc"/>
+    <rect x="190" y="232" width="150" height="8" rx="4" fill="#d6e2dc"/>
+    <rect x="190" y="258" width="62" height="22" rx="11" fill="#42b883" opacity="0.16"/>
+    <text x="221" y="273" font-family="Arial, sans-serif" font-size="11" fill="#2f9e6e" text-anchor="middle">266 篇</text>
+  </g>
+
+  <!-- floating badges -->
+  <g filter="url(#shadow)">
+    <rect x="40" y="232" width="86" height="34" rx="17" fill="#ffffff" stroke="#42b883" stroke-opacity="0.3"/>
+    <circle cx="62" cy="249" r="7" fill="#42b883"/>
+    <text x="76" y="253" font-family="Arial, sans-serif" font-size="12" fill="#35495e">知识库</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="300" y="70" width="96" height="34" rx="17" fill="#ffffff" stroke="#42b883" stroke-opacity="0.3"/>
+    <circle cx="322" cy="87" r="7" fill="#35495e"/>
+    <text x="336" y="91" font-family="Arial, sans-serif" font-size="12" fill="#35495e">VitePress</text>
+  </g>
+
+  <!-- sparkles -->
+  <circle cx="120" cy="52" r="4" fill="#42b883" opacity="0.6"/>
+  <circle cx="392" cy="286" r="5" fill="#42b883" opacity="0.5"/>
+  <circle cx="356" cy="52" r="3" fill="#35495e" opacity="0.35"/>
+</svg>
