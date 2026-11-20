@@ -3,44 +3,48 @@ layout: home
 
 hero:
   name: "DOIT 的知识库"
-  text: "从语雀迁移而来"
-  tagline: "更清晰的排版，更聚焦的阅读，更舒服的代码展示"
+  text: "让知识，自有脉络"
+  tagline: "从语雀迁移而来，一个更清晰、更舒适的阅读空间"
   image: /hero-knowledge.svg
   actions:
     - theme: brand
       text: "开始阅读"
       link: "/24013644-nmkii5/Visual%20Studio%20Code"
-    - theme: alt
-      text: "查看语雀首页"
-      link: "https://www.yuque.com/dashboard"
 
 features:
-  - title: "工作 · 17 篇"
+  - icon: "💼"
+    title: "工作 · 17 篇"
     details: "项目笔记、部署排错与工具使用，保留原文链接和更新时间。"
     link: "/24013644-nmkii5/Visual%20Studio%20Code"
-  - title: "生活 · 9 篇"
+  - icon: "🌱"
+    title: "生活 · 9 篇"
     details: "阅读摘录、成长记录与长期主义思考，长文自动整理结构。"
     link: "/44851824-qmvy1p/《认知觉醒--成人版》"
-  - title: "Python · 12 篇"
+  - icon: "🐍"
+    title: "Python · 12 篇"
     details: "Python 学习与脚本记录，代码片段统一等宽字体展示。"
     link: "/58796906-gzq3v8/异常处理"
-  - title: "前端 · 150 篇"
+  - icon: "⚡"
+    title: "前端 · 150 篇"
     details: "Vue、TypeScript、工程化与面试题，重点内容分级更清楚。"
     link: "/44851988-rs8s8g/全局注册方法"
 ---
 
-<div class="home-stats">
-<div class="home-stat"><strong>4</strong><span>个知识库</span></div>
-<div class="home-stat"><strong>188</strong><span>篇文档</span></div>
-<div class="home-stat"><strong>159</strong><span>篇含代码</span></div>
-<div class="home-stat"><strong>58</strong><span>篇含图片</span></div>
+<div class="stat-band">
+<div class="stat-item"><strong>4</strong><span>个知识库</span></div>
+<div class="stat-item"><strong>188</strong><span>篇文档</span></div>
+<div class="stat-item"><strong>159</strong><span>篇含代码</span></div>
+<div class="stat-item"><strong>58</strong><span>篇含图片</span></div>
 </div>
 
-<div class="home-lists">
-<section class="home-list">
+<div class="home-sections">
+<section class="home-panel">
+<header class="panel-head">
+<span class="panel-kicker">LATEST</span>
 <h2>最近更新</h2>
-<p class="home-list-desc">按语雀最后编辑时间排序，看看最近沉淀了什么。</p>
-<ol class="home-link-list">
+<p class="panel-desc">按语雀最后编辑时间排序，看看最近沉淀了什么。</p>
+</header>
+<ol class="panel-list">
 <li><a href="24013644-nmkii5/破解GitLens的方案">破解GitLens的方案</a><time>2026-10-09</time></li>
 <li><a href="24013644-nmkii5/codesign-mcp">codesign-mcp</a><time>2026-09-10</time></li>
 <li><a href="44851824-qmvy1p/《掌控习惯》">《掌控习惯》</a><time>2026-04-13</time></li>
@@ -53,10 +57,13 @@ features:
 <li><a href="24013644-nmkii5/若依接入郑政钉">若依接入郑政钉</a><time>2026-01-28</time></li>
 </ol>
 </section>
-<section class="home-list">
+<section class="home-panel">
+<header class="panel-head">
+<span class="panel-kicker panel-kicker--hot">POPULAR</span>
 <h2>热门文档</h2>
-<p class="home-list-desc">按内容完整度综合排序，适合优先阅读。</p>
-<ol class="home-link-list home-link-list--meta">
+<p class="panel-desc">按内容完整度综合排序，适合优先阅读。</p>
+</header>
+<ol class="panel-list panel-list--meta">
 <li><a href="44851988-rs8s8g/泛型%28重难点%29">泛型(重难点)</a><span>前端 · 36.9k 字 · 103 段代码 · 2 张图</span></li>
 <li><a href="58796906-gzq3v8/数据容器">数据容器</a><span>Python · 16.3k 字 · 66 段代码</span></li>
 <li><a href="44851824-qmvy1p/《认知驱动》">《认知驱动》</a><span>生活 · 42.5k 字 · 16 张图</span></li>
