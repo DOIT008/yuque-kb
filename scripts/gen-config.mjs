@@ -4,6 +4,9 @@ import path from 'node:path';
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, '$1')), '..');
 const docs = path.join(ROOT, 'docs');
 
+// 访问密码门：内联脚本（哈希校验，源码不含明文密码）
+const gateCode = fs.readFileSync(path.join(ROOT, 'scripts', 'gate-script.js'), 'utf8');
+
 // 语雀目录名是内部 slug，直接显示在导航里读者看不懂；映射成中文知识库名。
 const bookLabels = {
   '24013644-nmkii5': '工作',
@@ -102,7 +105,8 @@ export default defineConfig({
   // 浏览器标签页 favicon + 主题色防闪烁（渲染前应用保存的主题）
   head: [
     ['link', { rel: 'icon', type: 'image/svg+xml', href: \`\${base}favicon.svg\` }],
-    ['script', {}, 'try{var t=localStorage.getItem("kb-theme");if(t&&t!=="green")document.documentElement.setAttribute("data-theme",t)}catch(e){}']
+    ['script', {}, 'try{var t=localStorage.getItem("kb-theme");if(t&&t!=="green")document.documentElement.setAttribute("data-theme",t)}catch(e){}'],
+    ['script', {}, ${JSON.stringify(gateCode)}]
   ],
   markdown: {
     container: {
