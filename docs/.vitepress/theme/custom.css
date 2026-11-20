@@ -550,17 +550,17 @@ html:root {
   }
 }
 
-/* ---------- 右侧「本页目录」收窄 ---------- */
+/* ---------- 右侧「本页目录」宽度（长标题不被截断，正文仍 860px） ---------- */
 @media (min-width: 1280px) {
   .VPDoc.has-aside .aside {
-    max-width: 200px !important;
-    padding-left: 24px !important;
+    max-width: 256px !important;
+    padding-left: 20px !important;
   }
   .VPDoc.has-aside .aside-container {
-    width: 176px !important;
+    width: 232px !important;
   }
   .VPDoc.has-aside .aside-curtain {
-    width: 176px !important;
+    width: 232px !important;
   }
 }
 
