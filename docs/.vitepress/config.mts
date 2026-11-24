@@ -98,6 +98,7 @@ export default defineConfig({
     text: "前端",
     collapsed: true,
     items: [
+      { text: "测试文档", link: "/44851988-rs8s8g/测试文档" },
       {
         text: "Vue 框架与生态 · 47",
         collapsed: true,
