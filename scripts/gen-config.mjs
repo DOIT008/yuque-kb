@@ -9,13 +9,13 @@ const gateCode = fs.readFileSync(path.join(ROOT, 'scripts', 'gate-script.js'), '
 
 // 语雀目录名是内部 slug，直接显示在导航里读者看不懂；映射成中文知识库名。
 const bookLabels = {
-  '24013644-nmkii5': '工作',
-  '44851824-qmvy1p': '生活',
-  '44851988-rs8s8g': '前端',
-  '48466893-qd0t47': '开源',
-  '58796906-gzq3v8': 'Python'
+  '工作': '工作',
+  '生活': '生活',
+  '前端': '前端',
+  '开源': '开源',
+  'Python': 'Python'
 };
-const bookOrder = ['24013644-nmkii5', '44851824-qmvy1p', '58796906-gzq3v8', '44851988-rs8s8g', '48466893-qd0t47'];
+const bookOrder = ['工作', '生活', 'Python', '前端', '开源'];
 
 const groups = fs.readdirSync(docs)
   .filter(d => fs.statSync(path.join(docs, d)).isDirectory() && d !== '.vitepress' && d !== 'public')
@@ -62,7 +62,7 @@ for (const g of groups) {
   const firstName = files[0].replace(/\.md$/, '');
   nav += `  { text: ${JSON.stringify(label)}, link: ${JSON.stringify('/' + g + '/' + firstName)} },\n`;
 
-  if (g === '44851988-rs8s8g') {
+  if (g === '前端') {
     // 前端：顶层折叠，子分组也默认折叠
     frontendGroups.clear();
     for (const f of files) {

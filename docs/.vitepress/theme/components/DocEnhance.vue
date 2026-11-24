@@ -6,11 +6,11 @@ const { page, frontmatter } = useData()
 const route = useRoute()
 
 const bookNames = {
-  '24013644-nmkii5': '工作',
-  '44851824-qmvy1p': '生活',
-  '58796906-gzq3v8': 'Python',
-  '44851988-rs8s8g': '前端',
-  '48466893-qd0t47': '开源'
+  '工作': '工作',
+  '生活': '生活',
+  'Python': 'Python',
+  '前端': '前端',
+  '开源': '开源'
 }
 
 const crumbs = computed(() => {
