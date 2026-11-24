@@ -2,7 +2,7 @@
 import { computed, onMounted, onUnmounted, ref, watch } from 'vue'
 import { useData, useRoute, withBase } from 'vitepress'
 
-const { page, frontmatter } = useData()
+const { page, frontmatter, theme } = useData()
 const route = useRoute()
 
 const bookNames = {
@@ -13,6 +13,25 @@ const bookNames = {
   '开源': '开源'
 }
 
+// 分组链接不能指向目录根（那里没有 index.md 会 404），改用该分组在 sidebar 里的第一篇文档。
+function groupLink(slug, rawSlug) {
+  const cfg = theme.value || {}
+  const sidebar = Array.isArray(cfg.sidebar) ? cfg.sidebar : []
+  for (const group of sidebar) {
+    if (!group || !Array.isArray(group.items)) continue
+    const isTarget = group.text === slug || group.link === '/' + slug + '/' || group.link === '/' + rawSlug + '/'
+    if (!isTarget) continue
+    for (const item of group.items) {
+      if (item && item.link) return item.link
+    }
+    if (group.link) return group.link
+  }
+  const nav = Array.isArray(cfg.nav) ? cfg.nav : []
+  const hit = nav.find((n) => n && n.text === slug && n.link)
+  if (hit) return hit.link
+  return '/' + rawSlug + '/'
+}
+
 const crumbs = computed(() => {
   const parts = route.path.split('/').filter(Boolean)
   const list = [{ text: '首页', link: withBase('/') }]
@@ -20,7 +39,7 @@ const crumbs = computed(() => {
     const rawSlug = parts[1]
     let slug = rawSlug
     try { slug = decodeURIComponent(rawSlug) } catch { /* 非法转义时保持原值 */ }
-    list.push({ text: bookNames[slug] || slug, link: withBase('/' + rawSlug + '/') })
+    list.push({ text: bookNames[slug] || slug, link: withBase(groupLink(slug, rawSlug)) })
   }
   list.push({ text: page.value.title || '文档' })
   return list
