@@ -55,7 +55,7 @@ function defineReactive(obj,key,val) {
 // 递归数据对象上的所有数据，使某个数据都有一个get和se函数
 
 function recurDataObj(dataObj) {
-    if (typeof dataObj !== 'object'|| dataObj == null ) {
+    if (typeof dataObj !<mark> 'object'|| dataObj </mark> null ) {
         return
     } 
     // 遍历对象上的所有数据

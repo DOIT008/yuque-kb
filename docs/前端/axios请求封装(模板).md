@@ -282,7 +282,7 @@ export function exportExcel(url, opt) {
     url + '?' + qs.stringify(opt)
   ).then((res) => {
     if (res.body && res.body.state) {
-      if (res.body.state == '2' || res.body.state == '5') {
+      if (res.body.state <mark> '2' || res.body.state </mark> '5') {
         if (sessionStorage.toLogin == '1') {
           MessageBox.confirm('登录失效，请重新登录', '提示', {
             confirmButtonText: '确定',

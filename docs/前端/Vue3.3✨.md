@@ -294,7 +294,7 @@ const handleScroll = ():void => {
   const scrollTop = container.scrollTop; // 滚动条位置
 
   if (props.useDynamicHeight) {
-    // ===== 不定高模式处理 =====
+    // ===<mark> 不定高模式处理 </mark>===
     // 1. 查找起始索引
     startIndex.value = findStartIndex(scrollTop);
 
@@ -314,7 +314,7 @@ const handleScroll = ():void => {
     startIndex.value = Math.max(0, startIndex.value - props.bufferSize);
     endIndex.value = Math.min(props.data.length, endIndex.value + props.bufferSize);
   } else {
-    // ===== 定高模式处理 =====
+    // ===<mark> 定高模式处理 </mark>===
     const itemHeight = Number(props.estimatedHeight);
     startIndex.value = Math.floor(scrollTop / itemHeight);
     endIndex.value = startIndex.value + Math.ceil(containerHeight / itemHeight);

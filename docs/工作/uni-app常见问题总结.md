@@ -551,9 +551,9 @@ export function $http(opt) {
 
         success:(res) => {
             // console.log('net-res' + url, res);
-            if (res.data.state == 0 || res.data.state == 1 || res.data.state == 42) {
+            if (res.data.state <mark> 0 || res.data.state </mark> 1 || res.data.state == 42) {
                 opt.suc(res.data);
-            } else if (res.data.state == 2 || res.data.state == 3) {
+            } else if (res.data.state <mark> 2 || res.data.state </mark> 3) {
                 console.log('res.data.state == 2')
                 uni.setStorageSync('sessionId', '');
                 let toAuthor = uni.getStorageSync('toAuthor');

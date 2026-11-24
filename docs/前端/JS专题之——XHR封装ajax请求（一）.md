@@ -147,7 +147,7 @@ xhr.send(data);
 ```js
 // 一般是写在open之后，send之前
 xhr.onreadystatechange = function(){
-        if(xhr.readyState == 4 && xhr.status == 200){
+        if(xhr.readyState <mark> 4 && xhr.status </mark> 200){
             options.success(xhr.responseText);//xhr.responseText就是返回的数据，好像是一个字符串，可能需要转化一下
         }
 }
