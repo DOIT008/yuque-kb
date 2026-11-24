@@ -17,8 +17,10 @@ const crumbs = computed(() => {
   const parts = route.path.split('/').filter(Boolean)
   const list = [{ text: '首页', link: withBase('/') }]
   if (parts.length >= 2) {
-    const slug = parts[1]
-    list.push({ text: bookNames[slug] || slug, link: withBase('/' + slug + '/') })
+    const rawSlug = parts[1]
+    let slug = rawSlug
+    try { slug = decodeURIComponent(rawSlug) } catch { /* 非法转义时保持原值 */ }
+    list.push({ text: bookNames[slug] || slug, link: withBase('/' + rawSlug + '/') })
   }
   list.push({ text: page.value.title || '文档' })
   return list
