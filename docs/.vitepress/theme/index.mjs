@@ -1,6 +1,7 @@
 import { nextTick } from 'vue'
 import DefaultTheme from 'vitepress/theme'
 import Layout from './Layout.vue'
+import 'katex/dist/katex.min.css'
 import './custom.css'
 
 function renderOnInit(cb) {
