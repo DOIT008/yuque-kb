@@ -98,8 +98,6 @@ export default defineConfig({
     text: "前端",
     collapsed: true,
     items: [
-      { text: "121212", link: "/前端/121212" },
-      { text: "测试文档", link: "/前端/测试文档" },
       {
         text: "Vue 框架与生态 · 47",
         collapsed: true,
