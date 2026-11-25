@@ -9,6 +9,8 @@
     "docs:preview": "vitepress preview docs --host 0.0.0.0 --port 4174"
   },
   "dependencies": {
+    "@mdit/plugin-katex": "^1.2.1",
+    "katex": "^0.19.1",
     "turndown": "^7.2.1",
     "vitepress": "^1.6.4"
   }
