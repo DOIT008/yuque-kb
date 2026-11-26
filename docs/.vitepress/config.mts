@@ -57,7 +57,6 @@ export default defineConfig({
       { text: "vite+vue3 打包后如何直接打开index.html文件", link: "/工作/vite+vue3 打包后如何直接打开index.html文件" },
       { text: "wrk2压测", link: "/工作/wrk2压测" },
       { text: "微信支付", link: "/工作/微信支付" },
-      { text: "放下", link: "/工作/放下" },
       { text: "破解GitLens的方案", link: "/工作/破解GitLens的方案" },
       { text: "若依接入郑政钉", link: "/工作/若依接入郑政钉" },
       { text: "阿里云mpass摸索", link: "/工作/阿里云mpass摸索" },
@@ -101,8 +100,6 @@ export default defineConfig({
     text: "前端",
     collapsed: true,
     items: [
-      { text: "12122", link: "/前端/12122" },
-      { text: "12", link: "/前端/12" },
       {
         text: "Vue 框架与生态 · 47",
         collapsed: true,
