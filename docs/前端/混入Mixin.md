@@ -125,3 +125,5 @@ export default {
 ## 参考文章
 
 1.  [浅谈Vue3 Composition API如何替换Vue Mixins](https://www.yht7.com/news/83745)​
+
+![图片](../public/images/mwwxbsaz-nwx4o5.png)![图片](../public/images/mwwxc56g-th1bju.jpg)
